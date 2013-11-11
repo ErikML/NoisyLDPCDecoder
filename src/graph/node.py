@@ -86,7 +86,7 @@ class FactorGraphNode(Node):
             self.send_message(self.generate_noisy_BEC_message_for(node, p), node)
             
     def generate_noisy_BEC_message_for(self, node, p):
-        if random() <= p:
+        if random() < p:
             return BinaryMessage(0, self)
         else:
             return self.generate_BEC_message_for(node)

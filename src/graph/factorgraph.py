@@ -4,9 +4,12 @@ Created on Nov 6, 2013
 @author: Erik
 '''
 from numpy import array
+from numpy import mean
+from numpy import arange
 from node import VariableNode
 from node import FactorNode
 from random import random
+import matplotlib.pyplot as plt
 
 class FactorGraph(object):
     
@@ -26,14 +29,14 @@ class FactorGraph(object):
                     vnode = self._variablenodes[j]
                     fnode.add_undirected_connection(vnode)
                      
-    def decodeBEC(self, codeword):
+    def decodeBEC(self, codeword, p=0, max_iter=500):
         self._apply_codeword(codeword)
         
         for vnode in self._variablenodes:
-            vnode.send_all_BEC_messages()
-        
-        p = 0.99
-        for _ in xrange(50000):
+            vnode.send_all_noisy_BEC_messages(p)
+        num_iter = 0
+        while 0 in self._get_suspected_result() and num_iter < max_iter:
+            num_iter += 1
             for fnode in self._factornodes:
                 fnode.send_all_noisy_BEC_messages(p)
                 fnode.clear_messages()
@@ -42,14 +45,17 @@ class FactorGraph(object):
                 vnode.process_messages_BEC()
                 vnode.send_all_noisy_BEC_messages(p)
                 vnode.clear_messages()    
-        result = []
-        for vnode in self._variablenodes:
-            result.append(vnode.suspected_value) 
-        return result
+        return (self._get_suspected_result(), num_iter)
         
     def _apply_codeword(self, codeword):
         for i, vnode in enumerate(self._variablenodes):
             vnode.recieved_value = codeword[i]
+            
+    def _get_suspected_result(self):
+        result = []
+        for vnode in self._variablenodes:
+            result.append(vnode.suspected_value)
+        return result
             
     def __repr__(self):
         return '<' + str(self._factornodes) + '>'
@@ -63,8 +69,8 @@ class FactorGraph(object):
 
 
 def main():       
-    a = mat2()
-    code = mat2code2()
+    a = mat3()
+    code = mat3allcodes()[1]
     f = FactorGraph(a)
     print code
     codeword = simulateBEC(0.4, convert01(code))
@@ -75,12 +81,13 @@ def main():
         print 'SUCCESS'
     else:
         print 'FAIL'
-
+'''
 def mat1():
     return array([map(int, '100011100001111'),map(int, '010010011010111'),map(int, '001001010111011'), map(int, '000100101111101')])
 
 def mat1code1():
     return map(int, '000000000000000')
+'''
 
 def mat2():
     return array([map(int, '10100'), map(int, '11010'), map(int, '01001')])
@@ -122,6 +129,57 @@ def convertneg11(codeword):
         elif bit == 0:
             newcodeword.append('?')
     return newcodeword
+
+def mat3():
+    return array([map(int, '111100'), map(int, '001101'), map(int, '100110')])
+
+def mat3allcodes():
+    return [map(int, '000000'), map(int, '011001'), map(int, '110010'), map(int, '101011'), map(int, '111100'), map(int, '100101'), map(int, '001110')]
+
+def all2errors(codeword):
+    lst = []
+    for i in xrange(len(codeword)-2):
+        for j in xrange(i+1, len(codeword) - 1):
+            current = list(codeword)
+            current[i] = 0
+            current[j] = 0
+            lst.append(current)
+    return lst
+
+def testsuite():
+    #f = FactorGraph(mat3())
+    all_codes = mat3allcodes()
+    
+    #code = convert01([0,0,1,1,1,0])
+    #error = [0,1,-1,0,-1,1]
+    #result = f.decodeBEC(error)
+    
+    #print convertneg11(code)
+    #print convertneg11(error)
+    #print convertneg11(result)
+    P = arange(0, 0.75, 0.05)
+    avg = {}
+    for p in P:
+        print '******* p = ' + str(p) + '*******'
+        for code in all_codes:
+            num_iter = []
+            print '**' + str(code) + '**'
+            code = convert01(code)
+            errors = all2errors(code)
+            for error in errors:
+                print convertneg11(error),
+                f = FactorGraph(mat3())
+                r = f.decodeBEC(error, p, 50000)
+                result = r[0]
+                num_iter.append(r[1])
+                if result == code:
+                    print 'SUCCESS ' + str(r[1])
+                else:
+                    print 'FAIL' + str(convertneg11(result))
+        avg[p] = mean(num_iter)
+    for point in avg:
+        plt.plot(point, avg[point], 'ro')
+    plt.show()
     
 if __name__ == '__main__':
-    main()            
+    testsuite()            
