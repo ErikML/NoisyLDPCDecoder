@@ -157,8 +157,9 @@ def testsuite():
     #print convertneg11(code)
     #print convertneg11(error)
     #print convertneg11(result)
-    P = arange(0, 0.75, 0.05)
+    P = arange(0, 0.705, 0.005)
     avg = {}
+    all_success = True
     for p in P:
         print '******* p = ' + str(p) + '*******'
         for code in all_codes:
@@ -176,9 +177,19 @@ def testsuite():
                     print 'SUCCESS ' + str(r[1])
                 else:
                     print 'FAIL' + str(convertneg11(result))
+                    all_success = False
         avg[p] = mean(num_iter)
+    if all_success:
+        print 'ALL SUCCESSFUL'
+    else:
+        print 'FAILURE OCCURRED'
     for point in avg:
         plt.plot(point, avg[point], 'ro')
+    plt.annotate('Diverges from noiseless case', xy=(0.4,50), xytext=(0.1, 500),
+                 arrowprops=dict(facecolor='black', shrink=0.05))
+    plt.xlabel('Probability of message-passing failure')
+    plt.ylabel('Number of iterations')
+    plt.title('Average number of iterations until convergence')
     plt.show()
     
 if __name__ == '__main__':
