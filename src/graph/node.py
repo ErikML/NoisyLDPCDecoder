@@ -81,6 +81,10 @@ class FactorGraphNode(Node):
             #print str(self) + '|' + str(self.generate_BEC_message_for(node)) + '|' + str(node)
             self.send_message(self.generate_BEC_message_for(node), node)
             
+    def send_all_BSC_messages(self):
+        for node in self.connections:
+            self.send_message(self.generate_BSC_message_for(node), node)
+            
     def send_all_noisy_BEC_messages(self, p):
         for node in self.connections:
             self.send_message(self.generate_noisy_BEC_message_for(node, p), node)
@@ -115,11 +119,24 @@ class VariableNode(FactorGraphNode):
                 return BinaryMessage(data, self)
         return BinaryMessage(0, self)
     
+    def generate_BSC_message_for(self, fnode):
+        data = [datum for datum in self._mailbox.all_data_except_from(fnode)]
+        if all_agree(data) and len(data) != 0:
+            return BinaryMessage(data[0], self)
+        else:
+            return BinaryMessage(self.recieved_value, self)
+    
     def process_messages_BEC(self):
         for data in self._mailbox.all_data():
             if data != 0:
                 self._suspected_value = data
                 break
+    def process_messages_BSC(self):
+        data = [bit for bit in self._mailbox.all_data()]
+        if all_agree(data):
+            self._suspected_value = data[0]
+        else:
+            self._suspected_value = self._recieved_value
     
     def _set_recieved_value(self, recieved_value):
         self._recieved_value = recieved_value
@@ -150,5 +167,23 @@ class FactorNode(FactorGraphNode):
         for data in self._mailbox.all_data_except_from(vnode):
             b *= data
         return BinaryMessage(b, self)
+    
+    def generate_BSC_message_for(self, vnode):
+        b = 1
+        for data in self._mailbox.all_data_except_from(vnode):
+            b *= data
+        return BinaryMessage(b, self)
+    
+def all_agree(data):
+    if len(data) == 1:
+        return True
+    elif len(data) == 0:
+        return False
+    else:
+        datum = data[0]
+        for d in data[1:]:
+            if d != datum:
+                return False
+        return True
 
 

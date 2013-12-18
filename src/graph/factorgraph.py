@@ -46,6 +46,22 @@ class FactorGraph(object):
                 vnode.send_all_noisy_BEC_messages(p)
                 vnode.clear_messages()    
         return (self._get_suspected_result(), num_iter)
+    
+    def decodeBSC(self, codeword):
+        self._apply_codeword(codeword)
+        
+        for vnode in self._variablenodes:
+            vnode.send_all_BSC_messages()
+        for _ in xrange(50):
+            for fnode in self._factornodes:
+                fnode.send_all_BSC_messages()
+                fnode.clear_messages()
+                
+            for vnode in self._variablenodes:
+                vnode.process_messages_BSC()
+                vnode.send_all_BSC_messages()
+                vnode.clear_messages()
+        return self._get_suspected_result()
         
     def _apply_codeword(self, codeword):
         for i, vnode in enumerate(self._variablenodes):
@@ -68,6 +84,20 @@ class FactorGraph(object):
         return s
 
 
+def mainBSC():
+    a = mat3()
+    code = mat3allcodes()[2]
+    f = FactorGraph(a)
+    print code
+    codeword = simulateBSC1bit(0.2, convert01(code))
+    print convertneg11(codeword)
+    result = f.decodeBSC(codeword)
+    print convertneg11(result)
+    if code == convertneg11(result):
+        print 'SUCCESS'
+    else:
+        print 'FAIL'
+
 def main():       
     a = mat3()
     code = mat3allcodes()[1]
@@ -88,7 +118,18 @@ def mat1():
 def mat1code1():
     return map(int, '000000000000000')
 '''
-
+def simulateBSC1bit(p, codeword):
+    bitflipped = False
+    transmitted = []
+    for bit in codeword:
+        if random() < p and not bitflipped:
+            print 'BITFLIPPED'
+            transmitted.append(bit * -1)
+            bitflipped = True
+        else:
+            transmitted.append(bit)
+    return transmitted
+    
 def mat2():
     return array([map(int, '10100'), map(int, '11010'), map(int, '01001')])
 
@@ -157,40 +198,42 @@ def testsuite():
     #print convertneg11(code)
     #print convertneg11(error)
     #print convertneg11(result)
-    P = arange(0, 0.705, 0.005)
+    P = arange(0, 0.75, 0.05)
     avg = {}
     all_success = True
+    LOGFILE = 'data.txt'
+    datafile = open(LOGFILE, 'wb')
     for p in P:
-        print '******* p = ' + str(p) + '*******'
+        datafile.write('******* p = ' + str(p) + '*******\n')
         for code in all_codes:
             num_iter = []
-            print '**' + str(code) + '**'
+            datafile.write('**' + str(code) + '**\n')
             code = convert01(code)
             errors = all2errors(code)
             for error in errors:
-                print convertneg11(error),
+                datafile.write(str(convertneg11(error)) + '\n'),
                 f = FactorGraph(mat3())
                 r = f.decodeBEC(error, p, 50000)
                 result = r[0]
                 num_iter.append(r[1])
                 if result == code:
-                    print 'SUCCESS ' + str(r[1])
+                    datafile.write('SUCCESS ' + str(r[1]) + '\n')
                 else:
-                    print 'FAIL' + str(convertneg11(result))
+                    datafile.write('FAIL' + str(convertneg11(result)) + '\n')
                     all_success = False
         avg[p] = mean(num_iter)
     if all_success:
-        print 'ALL SUCCESSFUL'
+        datafile.write('ALL SUCCESSFUL\n')
     else:
-        print 'FAILURE OCCURRED'
+        datafile.write('FAILURE OCCURRED\n')
     for point in avg:
         plt.plot(point, avg[point], 'ro')
-    plt.annotate('Diverges from noiseless case', xy=(0.4,50), xytext=(0.1, 500),
-                 arrowprops=dict(facecolor='black', shrink=0.05))
     plt.xlabel('Probability of message-passing failure')
     plt.ylabel('Number of iterations')
     plt.title('Average number of iterations until convergence')
     plt.show()
     
+    datafile.close()
+    
 if __name__ == '__main__':
-    testsuite()            
+    mainBSC()            
