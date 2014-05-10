@@ -149,9 +149,9 @@ SUCCESS 2
 ******* p = 0.05*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 2
+SUCCESS 4
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 1
+SUCCESS 2
 ['?', 0, 0, '?', 0, 0]
 SUCCESS 2
 ['?', 0, 0, 0, '?', 0]
@@ -161,7 +161,7 @@ SUCCESS 2
 [0, '?', 0, '?', 0, 0]
 SUCCESS 2
 [0, '?', 0, 0, '?', 0]
-SUCCESS 1
+SUCCESS 2
 [0, 0, '?', '?', 0, 0]
 SUCCESS 2
 [0, 0, '?', 0, '?', 0]
@@ -170,13 +170,13 @@ SUCCESS 1
 SUCCESS 2
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 4
+SUCCESS 2
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 1
+SUCCESS 2
 ['?', 1, 1, '?', 0, 1]
 SUCCESS 2
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 3
+SUCCESS 4
 [0, '?', '?', 0, 0, 1]
 SUCCESS 2
 [0, '?', 1, '?', 0, 1]
@@ -184,22 +184,22 @@ SUCCESS 2
 [0, '?', 1, 0, '?', 1]
 SUCCESS 2
 [0, 1, '?', '?', 0, 1]
-SUCCESS 2
+SUCCESS 3
 [0, 1, '?', 0, '?', 1]
 SUCCESS 1
 [0, 1, 1, '?', '?', 1]
 SUCCESS 2
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 4
+SUCCESS 3
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 1
+SUCCESS 2
 ['?', 1, 0, '?', 1, 0]
 SUCCESS 2
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 2
-[1, '?', '?', 0, 1, 0]
 SUCCESS 3
+[1, '?', '?', 0, 1, 0]
+SUCCESS 2
 [1, '?', 0, '?', 1, 0]
 SUCCESS 2
 [1, '?', 0, 0, '?', 0]
@@ -207,12 +207,12 @@ SUCCESS 2
 [1, 1, '?', '?', 1, 0]
 SUCCESS 2
 [1, 1, '?', 0, '?', 0]
-SUCCESS 1
+SUCCESS 2
 [1, 1, 0, '?', '?', 0]
 SUCCESS 2
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 2
+SUCCESS 3
 ['?', 0, '?', 0, 1, 1]
 SUCCESS 2
 ['?', 0, 1, '?', 1, 1]
@@ -220,9 +220,9 @@ SUCCESS 2
 ['?', 0, 1, 0, '?', 1]
 SUCCESS 2
 [1, '?', '?', 0, 1, 1]
-SUCCESS 2
+SUCCESS 3
 [1, '?', 1, '?', 1, 1]
-SUCCESS 2
+SUCCESS 3
 [1, '?', 1, 0, '?', 1]
 SUCCESS 1
 [1, 0, '?', '?', 1, 1]
@@ -230,24 +230,24 @@ SUCCESS 2
 [1, 0, '?', 0, '?', 1]
 SUCCESS 1
 [1, 0, 1, '?', '?', 1]
-SUCCESS 2
+SUCCESS 3
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 2
-['?', 1, '?', 1, 0, 0]
 SUCCESS 3
+['?', 1, '?', 1, 0, 0]
+SUCCESS 1
 ['?', 1, 1, '?', 0, 0]
 SUCCESS 2
 ['?', 1, 1, 1, '?', 0]
 SUCCESS 2
 [1, '?', '?', 1, 0, 0]
-SUCCESS 4
+SUCCESS 2
 [1, '?', 1, '?', 0, 0]
 SUCCESS 3
 [1, '?', 1, 1, '?', 0]
 SUCCESS 1
 [1, 1, '?', '?', 0, 0]
-SUCCESS 3
+SUCCESS 2
 [1, 1, '?', 1, '?', 0]
 SUCCESS 1
 [1, 1, 1, '?', '?', 0]
@@ -256,13 +256,13 @@ SUCCESS 2
 ['?', '?', 0, 1, 0, 1]
 SUCCESS 2
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 1
+SUCCESS 2
 ['?', 0, 0, '?', 0, 1]
 SUCCESS 2
 ['?', 0, 0, 1, '?', 1]
 SUCCESS 2
 [1, '?', '?', 1, 0, 1]
-SUCCESS 2
+SUCCESS 3
 [1, '?', 0, '?', 0, 1]
 SUCCESS 2
 [1, '?', 0, 1, '?', 1]
@@ -270,12 +270,12 @@ SUCCESS 1
 [1, 0, '?', '?', 0, 1]
 SUCCESS 2
 [1, 0, '?', 1, '?', 1]
-SUCCESS 1
+SUCCESS 2
 [1, 0, 0, '?', '?', 1]
 SUCCESS 2
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 4
+SUCCESS 3
 ['?', 0, '?', 1, 1, 0]
 SUCCESS 1
 ['?', 0, 1, '?', 1, 0]
@@ -283,27 +283,27 @@ SUCCESS 2
 ['?', 0, 1, 1, '?', 0]
 SUCCESS 2
 [0, '?', '?', 1, 1, 0]
-SUCCESS 2
+SUCCESS 3
 [0, '?', 1, '?', 1, 0]
 SUCCESS 2
 [0, '?', 1, 1, '?', 0]
-SUCCESS 2
+SUCCESS 1
 [0, 0, '?', '?', 1, 0]
 SUCCESS 2
 [0, 0, '?', 1, '?', 0]
 SUCCESS 1
 [0, 0, 1, '?', '?', 0]
-SUCCESS 2
+SUCCESS 3
 ******* p = 0.1*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 3
+SUCCESS 6
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 2
+SUCCESS 1
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 2
-['?', 0, 0, 0, '?', 0]
 SUCCESS 3
+['?', 0, 0, 0, '?', 0]
+SUCCESS 2
 [0, '?', '?', 0, 0, 0]
 SUCCESS 2
 [0, '?', 0, '?', 0, 0]
@@ -311,104 +311,104 @@ SUCCESS 2
 [0, '?', 0, 0, '?', 0]
 SUCCESS 2
 [0, 0, '?', '?', 0, 0]
-SUCCESS 3
+SUCCESS 2
 [0, 0, '?', 0, '?', 0]
-SUCCESS 3
+SUCCESS 2
 [0, 0, 0, '?', '?', 0]
 SUCCESS 2
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 2
+SUCCESS 5
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 3
+SUCCESS 1
 ['?', 1, 1, '?', 0, 1]
 SUCCESS 2
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 5
+SUCCESS 7
 [0, '?', '?', 0, 0, 1]
 SUCCESS 5
 [0, '?', 1, '?', 0, 1]
-SUCCESS 3
+SUCCESS 2
 [0, '?', 1, 0, '?', 1]
-SUCCESS 2
+SUCCESS 1
 [0, 1, '?', '?', 0, 1]
-SUCCESS 2
+SUCCESS 4
 [0, 1, '?', 0, '?', 1]
-SUCCESS 2
+SUCCESS 1
 [0, 1, 1, '?', '?', 1]
-SUCCESS 3
+SUCCESS 4
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 2
+SUCCESS 3
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 2
+SUCCESS 1
 ['?', 1, 0, '?', 1, 0]
 SUCCESS 2
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 2
-[1, '?', '?', 0, 1, 0]
-SUCCESS 2
-[1, '?', 0, '?', 1, 0]
 SUCCESS 3
+[1, '?', '?', 0, 1, 0]
+SUCCESS 3
+[1, '?', 0, '?', 1, 0]
+SUCCESS 4
 [1, '?', 0, 0, '?', 0]
-SUCCESS 1
+SUCCESS 3
 [1, 1, '?', '?', 1, 0]
 SUCCESS 2
 [1, 1, '?', 0, '?', 0]
 SUCCESS 1
 [1, 1, 0, '?', '?', 0]
-SUCCESS 3
+SUCCESS 2
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 3
+SUCCESS 4
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 2
+SUCCESS 3
 ['?', 0, 1, '?', 1, 1]
-SUCCESS 4
-['?', 0, 1, 0, '?', 1]
 SUCCESS 2
+['?', 0, 1, 0, '?', 1]
+SUCCESS 3
 [1, '?', '?', 0, 1, 1]
-SUCCESS 4
+SUCCESS 2
 [1, '?', 1, '?', 1, 1]
-SUCCESS 3
+SUCCESS 2
 [1, '?', 1, 0, '?', 1]
-SUCCESS 3
+SUCCESS 2
 [1, 0, '?', '?', 1, 1]
-SUCCESS 4
+SUCCESS 2
 [1, 0, '?', 0, '?', 1]
 SUCCESS 1
 [1, 0, 1, '?', '?', 1]
 SUCCESS 2
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 2
+SUCCESS 5
 ['?', 1, '?', 1, 0, 0]
 SUCCESS 1
 ['?', 1, 1, '?', 0, 0]
 SUCCESS 2
 ['?', 1, 1, 1, '?', 0]
-SUCCESS 3
+SUCCESS 9
 [1, '?', '?', 1, 0, 0]
-SUCCESS 4
+SUCCESS 2
 [1, '?', 1, '?', 0, 0]
 SUCCESS 2
 [1, '?', 1, 1, '?', 0]
-SUCCESS 1
+SUCCESS 2
 [1, 1, '?', '?', 0, 0]
 SUCCESS 2
 [1, 1, '?', 1, '?', 0]
-SUCCESS 2
+SUCCESS 1
 [1, 1, 1, '?', '?', 0]
-SUCCESS 2
+SUCCESS 4
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 6
-['?', 0, '?', 1, 0, 1]
-SUCCESS 1
-['?', 0, 0, '?', 0, 1]
-SUCCESS 2
-['?', 0, 0, 1, '?', 1]
 SUCCESS 3
+['?', 0, '?', 1, 0, 1]
+SUCCESS 3
+['?', 0, 0, '?', 0, 1]
+SUCCESS 3
+['?', 0, 0, 1, '?', 1]
+SUCCESS 2
 [1, '?', '?', 1, 0, 1]
 SUCCESS 2
 [1, '?', 0, '?', 0, 1]
@@ -431,128 +431,128 @@ SUCCESS 3
 ['?', 0, 1, 1, '?', 0]
 SUCCESS 2
 [0, '?', '?', 1, 1, 0]
-SUCCESS 4
+SUCCESS 2
 [0, '?', 1, '?', 1, 0]
 SUCCESS 2
 [0, '?', 1, 1, '?', 0]
-SUCCESS 3
-[0, 0, '?', '?', 1, 0]
-SUCCESS 4
-[0, 0, '?', 1, '?', 0]
 SUCCESS 1
+[0, 0, '?', '?', 1, 0]
+SUCCESS 2
+[0, 0, '?', 1, '?', 0]
+SUCCESS 2
 [0, 0, 1, '?', '?', 0]
 SUCCESS 2
 ******* p = 0.15*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 2
+SUCCESS 8
 ['?', 0, '?', 0, 0, 0]
 SUCCESS 2
 ['?', 0, 0, '?', 0, 0]
 SUCCESS 3
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 4
-[0, '?', '?', 0, 0, 0]
-SUCCESS 4
-[0, '?', 0, '?', 0, 0]
-SUCCESS 3
-[0, '?', 0, 0, '?', 0]
-SUCCESS 3
-[0, 0, '?', '?', 0, 0]
 SUCCESS 2
+[0, '?', '?', 0, 0, 0]
+SUCCESS 3
+[0, '?', 0, '?', 0, 0]
+SUCCESS 2
+[0, '?', 0, 0, '?', 0]
+SUCCESS 1
+[0, 0, '?', '?', 0, 0]
+SUCCESS 5
 [0, 0, '?', 0, '?', 0]
 SUCCESS 1
 [0, 0, 0, '?', '?', 0]
-SUCCESS 3
+SUCCESS 2
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
 SUCCESS 2
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 1
+SUCCESS 4
 ['?', 1, 1, '?', 0, 1]
 SUCCESS 2
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 4
-[0, '?', '?', 0, 0, 1]
-SUCCESS 5
-[0, '?', 1, '?', 0, 1]
-SUCCESS 3
-[0, '?', 1, 0, '?', 1]
-SUCCESS 4
-[0, 1, '?', '?', 0, 1]
 SUCCESS 2
+[0, '?', '?', 0, 0, 1]
+SUCCESS 4
+[0, '?', 1, '?', 0, 1]
+SUCCESS 2
+[0, '?', 1, 0, '?', 1]
+SUCCESS 1
+[0, 1, '?', '?', 0, 1]
+SUCCESS 3
 [0, 1, '?', 0, '?', 1]
 SUCCESS 1
 [0, 1, 1, '?', '?', 1]
 SUCCESS 6
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 2
+SUCCESS 3
 ['?', 1, '?', 0, 1, 0]
 SUCCESS 2
 ['?', 1, 0, '?', 1, 0]
-SUCCESS 4
+SUCCESS 6
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 5
-[1, '?', '?', 0, 1, 0]
-SUCCESS 3
-[1, '?', 0, '?', 1, 0]
 SUCCESS 2
+[1, '?', '?', 0, 1, 0]
+SUCCESS 5
+[1, '?', 0, '?', 1, 0]
+SUCCESS 3
 [1, '?', 0, 0, '?', 0]
 SUCCESS 4
 [1, 1, '?', '?', 1, 0]
-SUCCESS 2
+SUCCESS 3
 [1, 1, '?', 0, '?', 0]
 SUCCESS 1
 [1, 1, 0, '?', '?', 0]
-SUCCESS 3
+SUCCESS 2
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 3
+SUCCESS 5
 ['?', 0, '?', 0, 1, 1]
 SUCCESS 3
 ['?', 0, 1, '?', 1, 1]
 SUCCESS 2
 ['?', 0, 1, 0, '?', 1]
-SUCCESS 3
+SUCCESS 6
 [1, '?', '?', 0, 1, 1]
-SUCCESS 7
+SUCCESS 8
 [1, '?', 1, '?', 1, 1]
-SUCCESS 9
+SUCCESS 2
 [1, '?', 1, 0, '?', 1]
-SUCCESS 3
+SUCCESS 6
 [1, 0, '?', '?', 1, 1]
 SUCCESS 2
 [1, 0, '?', 0, '?', 1]
-SUCCESS 1
+SUCCESS 5
 [1, 0, 1, '?', '?', 1]
-SUCCESS 4
+SUCCESS 3
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 4
+SUCCESS 2
 ['?', 1, '?', 1, 0, 0]
-SUCCESS 4
-['?', 1, 1, '?', 0, 0]
-SUCCESS 4
-['?', 1, 1, 1, '?', 0]
-SUCCESS 3
-[1, '?', '?', 1, 0, 0]
-SUCCESS 3
-[1, '?', 1, '?', 0, 0]
-SUCCESS 5
-[1, '?', 1, 1, '?', 0]
 SUCCESS 1
+['?', 1, 1, '?', 0, 0]
+SUCCESS 2
+['?', 1, 1, 1, '?', 0]
+SUCCESS 12
+[1, '?', '?', 1, 0, 0]
+SUCCESS 12
+[1, '?', 1, '?', 0, 0]
+SUCCESS 3
+[1, '?', 1, 1, '?', 0]
+SUCCESS 3
 [1, 1, '?', '?', 0, 0]
 SUCCESS 2
 [1, 1, '?', 1, '?', 0]
 SUCCESS 1
 [1, 1, 1, '?', '?', 0]
-SUCCESS 2
+SUCCESS 4
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
 SUCCESS 5
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 1
+SUCCESS 2
 ['?', 0, 0, '?', 0, 1]
 SUCCESS 2
 ['?', 0, 0, 1, '?', 1]
@@ -560,73 +560,73 @@ SUCCESS 2
 [1, '?', '?', 1, 0, 1]
 SUCCESS 2
 [1, '?', 0, '?', 0, 1]
-SUCCESS 5
+SUCCESS 3
 [1, '?', 0, 1, '?', 1]
 SUCCESS 2
 [1, 0, '?', '?', 0, 1]
-SUCCESS 3
+SUCCESS 2
 [1, 0, '?', 1, '?', 1]
 SUCCESS 1
 [1, 0, 0, '?', '?', 1]
 SUCCESS 2
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 9
+SUCCESS 3
 ['?', 0, '?', 1, 1, 0]
-SUCCESS 1
+SUCCESS 2
 ['?', 0, 1, '?', 1, 0]
 SUCCESS 2
 ['?', 0, 1, 1, '?', 0]
-SUCCESS 3
+SUCCESS 5
 [0, '?', '?', 1, 1, 0]
-SUCCESS 7
+SUCCESS 8
 [0, '?', 1, '?', 1, 0]
-SUCCESS 2
+SUCCESS 4
 [0, '?', 1, 1, '?', 0]
 SUCCESS 2
 [0, 0, '?', '?', 1, 0]
-SUCCESS 2
+SUCCESS 4
 [0, 0, '?', 1, '?', 0]
-SUCCESS 2
+SUCCESS 1
 [0, 0, 1, '?', '?', 0]
 SUCCESS 3
 ******* p = 0.2*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 5
+SUCCESS 6
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 3
+SUCCESS 1
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 2
+SUCCESS 3
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 10
+SUCCESS 2
 [0, '?', '?', 0, 0, 0]
-SUCCESS 2
-[0, '?', 0, '?', 0, 0]
-SUCCESS 2
-[0, '?', 0, 0, '?', 0]
-SUCCESS 5
-[0, 0, '?', '?', 0, 0]
 SUCCESS 4
+[0, '?', 0, '?', 0, 0]
+SUCCESS 5
+[0, '?', 0, 0, '?', 0]
+SUCCESS 1
+[0, 0, '?', '?', 0, 0]
+SUCCESS 7
 [0, 0, '?', 0, '?', 0]
-SUCCESS 2
+SUCCESS 4
 [0, 0, 0, '?', '?', 0]
-SUCCESS 2
+SUCCESS 4
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 9
-['?', 1, '?', 0, 0, 1]
-SUCCESS 2
-['?', 1, 1, '?', 0, 1]
-SUCCESS 4
-['?', 1, 1, 0, '?', 1]
-SUCCESS 9
-[0, '?', '?', 0, 0, 1]
-SUCCESS 2
-[0, '?', 1, '?', 0, 1]
 SUCCESS 3
+['?', 1, '?', 0, 0, 1]
+SUCCESS 3
+['?', 1, 1, '?', 0, 1]
+SUCCESS 5
+['?', 1, 1, 0, '?', 1]
+SUCCESS 5
+[0, '?', '?', 0, 0, 1]
+SUCCESS 7
+[0, '?', 1, '?', 0, 1]
+SUCCESS 5
 [0, '?', 1, 0, '?', 1]
-SUCCESS 2
+SUCCESS 5
 [0, 1, '?', '?', 0, 1]
 SUCCESS 3
 [0, 1, '?', 0, '?', 1]
@@ -637,1585 +637,1514 @@ SUCCESS 3
 ['?', '?', 0, 0, 1, 0]
 SUCCESS 4
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 3
+SUCCESS 4
 ['?', 1, 0, '?', 1, 0]
-SUCCESS 4
-['?', 1, 0, 0, '?', 0]
-SUCCESS 8
-[1, '?', '?', 0, 1, 0]
-SUCCESS 4
-[1, '?', 0, '?', 1, 0]
-SUCCESS 3
-[1, '?', 0, 0, '?', 0]
 SUCCESS 2
-[1, 1, '?', '?', 1, 0]
-SUCCESS 6
-[1, 1, '?', 0, '?', 0]
-SUCCESS 1
-[1, 1, 0, '?', '?', 0]
+['?', 1, 0, 0, '?', 0]
 SUCCESS 10
+[1, '?', '?', 0, 1, 0]
+SUCCESS 3
+[1, '?', 0, '?', 1, 0]
+SUCCESS 6
+[1, '?', 0, 0, '?', 0]
+SUCCESS 1
+[1, 1, '?', '?', 1, 0]
+SUCCESS 3
+[1, 1, '?', 0, '?', 0]
+SUCCESS 3
+[1, 1, 0, '?', '?', 0]
+SUCCESS 6
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 10
+SUCCESS 5
 ['?', 0, '?', 0, 1, 1]
 SUCCESS 5
 ['?', 0, 1, '?', 1, 1]
-SUCCESS 10
+SUCCESS 8
 ['?', 0, 1, 0, '?', 1]
 SUCCESS 3
 [1, '?', '?', 0, 1, 1]
-SUCCESS 10
-[1, '?', 1, '?', 1, 1]
 SUCCESS 2
+[1, '?', 1, '?', 1, 1]
+SUCCESS 8
 [1, '?', 1, 0, '?', 1]
 SUCCESS 2
 [1, 0, '?', '?', 1, 1]
-SUCCESS 7
+SUCCESS 9
 [1, 0, '?', 0, '?', 1]
-SUCCESS 5
-[1, 0, 1, '?', '?', 1]
 SUCCESS 2
+[1, 0, 1, '?', '?', 1]
+SUCCESS 5
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 6
-['?', 1, '?', 1, 0, 0]
 SUCCESS 2
+['?', 1, '?', 1, 0, 0]
+SUCCESS 1
 ['?', 1, 1, '?', 0, 0]
-SUCCESS 7
+SUCCESS 4
 ['?', 1, 1, 1, '?', 0]
-SUCCESS 7
+SUCCESS 8
 [1, '?', '?', 1, 0, 0]
 SUCCESS 2
 [1, '?', 1, '?', 0, 0]
-SUCCESS 3
+SUCCESS 16
 [1, '?', 1, 1, '?', 0]
-SUCCESS 2
-[1, 1, '?', '?', 0, 0]
-SUCCESS 3
-[1, 1, '?', 1, '?', 0]
 SUCCESS 1
-[1, 1, 1, '?', '?', 0]
+[1, 1, '?', '?', 0, 0]
+SUCCESS 4
+[1, 1, '?', 1, '?', 0]
 SUCCESS 2
+[1, 1, 1, '?', '?', 0]
+SUCCESS 3
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 4
+SUCCESS 3
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 3
+SUCCESS 4
 ['?', 0, 0, '?', 0, 1]
-SUCCESS 5
+SUCCESS 2
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 3
+SUCCESS 17
 [1, '?', '?', 1, 0, 1]
-SUCCESS 7
+SUCCESS 11
 [1, '?', 0, '?', 0, 1]
-SUCCESS 3
+SUCCESS 8
 [1, '?', 0, 1, '?', 1]
 SUCCESS 2
 [1, 0, '?', '?', 0, 1]
-SUCCESS 2
+SUCCESS 5
 [1, 0, '?', 1, '?', 1]
-SUCCESS 2
-[1, 0, 0, '?', '?', 1]
 SUCCESS 3
+[1, 0, 0, '?', '?', 1]
+SUCCESS 2
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 6
-['?', 0, '?', 1, 1, 0]
-SUCCESS 2
-['?', 0, 1, '?', 1, 0]
-SUCCESS 3
-['?', 0, 1, 1, '?', 0]
-SUCCESS 8
-[0, '?', '?', 1, 1, 0]
 SUCCESS 4
-[0, '?', 1, '?', 1, 0]
-SUCCESS 2
-[0, '?', 1, 1, '?', 0]
+['?', 0, '?', 1, 1, 0]
 SUCCESS 1
-[0, 0, '?', '?', 1, 0]
+['?', 0, 1, '?', 1, 0]
 SUCCESS 2
-[0, 0, '?', 1, '?', 0]
+['?', 0, 1, 1, '?', 0]
+SUCCESS 4
+[0, '?', '?', 1, 1, 0]
+SUCCESS 2
+[0, '?', 1, '?', 1, 0]
 SUCCESS 3
-[0, 0, 1, '?', '?', 0]
+[0, '?', 1, 1, '?', 0]
+SUCCESS 3
+[0, 0, '?', '?', 1, 0]
+SUCCESS 3
+[0, 0, '?', 1, '?', 0]
 SUCCESS 2
+[0, 0, 1, '?', '?', 0]
+SUCCESS 4
 ******* p = 0.25*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 4
+SUCCESS 11
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 1
+SUCCESS 3
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 2
+SUCCESS 3
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 8
+SUCCESS 3
 [0, '?', '?', 0, 0, 0]
-SUCCESS 2
+SUCCESS 10
 [0, '?', 0, '?', 0, 0]
-SUCCESS 2
+SUCCESS 10
 [0, '?', 0, 0, '?', 0]
 SUCCESS 3
 [0, 0, '?', '?', 0, 0]
-SUCCESS 7
+SUCCESS 12
 [0, 0, '?', 0, '?', 0]
-SUCCESS 3
+SUCCESS 1
 [0, 0, 0, '?', '?', 0]
-SUCCESS 6
+SUCCESS 5
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 4
+SUCCESS 10
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 1
-['?', 1, 1, '?', 0, 1]
-SUCCESS 8
-['?', 1, 1, 0, '?', 1]
-SUCCESS 17
-[0, '?', '?', 0, 0, 1]
 SUCCESS 3
-[0, '?', 1, '?', 0, 1]
+['?', 1, 1, '?', 0, 1]
+SUCCESS 4
+['?', 1, 1, 0, '?', 1]
+SUCCESS 3
+[0, '?', '?', 0, 0, 1]
 SUCCESS 8
+[0, '?', 1, '?', 0, 1]
+SUCCESS 7
 [0, '?', 1, 0, '?', 1]
-SUCCESS 2
+SUCCESS 4
 [0, 1, '?', '?', 0, 1]
-SUCCESS 11
+SUCCESS 9
 [0, 1, '?', 0, '?', 1]
-SUCCESS 1
-[0, 1, 1, '?', '?', 1]
 SUCCESS 2
+[0, 1, 1, '?', '?', 1]
+SUCCESS 4
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 4
+SUCCESS 13
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 3
+SUCCESS 2
 ['?', 1, 0, '?', 1, 0]
 SUCCESS 2
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 11
+SUCCESS 4
 [1, '?', '?', 0, 1, 0]
-SUCCESS 15
+SUCCESS 4
 [1, '?', 0, '?', 1, 0]
-SUCCESS 2
+SUCCESS 13
 [1, '?', 0, 0, '?', 0]
-SUCCESS 2
+SUCCESS 6
 [1, 1, '?', '?', 1, 0]
 SUCCESS 8
 [1, 1, '?', 0, '?', 0]
 SUCCESS 3
 [1, 1, 0, '?', '?', 0]
-SUCCESS 3
+SUCCESS 6
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 4
+SUCCESS 7
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 3
+SUCCESS 1
 ['?', 0, 1, '?', 1, 1]
-SUCCESS 2
+SUCCESS 4
 ['?', 0, 1, 0, '?', 1]
-SUCCESS 3
-[1, '?', '?', 0, 1, 1]
 SUCCESS 5
+[1, '?', '?', 0, 1, 1]
+SUCCESS 2
 [1, '?', 1, '?', 1, 1]
-SUCCESS 17
-[1, '?', 1, 0, '?', 1]
-SUCCESS 13
-[1, 0, '?', '?', 1, 1]
 SUCCESS 3
+[1, '?', 1, 0, '?', 1]
+SUCCESS 5
+[1, 0, '?', '?', 1, 1]
+SUCCESS 4
 [1, 0, '?', 0, '?', 1]
 SUCCESS 2
 [1, 0, 1, '?', '?', 1]
-SUCCESS 3
+SUCCESS 11
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 13
+SUCCESS 7
 ['?', 1, '?', 1, 0, 0]
 SUCCESS 5
 ['?', 1, 1, '?', 0, 0]
-SUCCESS 2
-['?', 1, 1, 1, '?', 0]
-SUCCESS 2
-[1, '?', '?', 1, 0, 0]
-SUCCESS 8
-[1, '?', 1, '?', 0, 0]
-SUCCESS 6
-[1, '?', 1, 1, '?', 0]
 SUCCESS 3
+['?', 1, 1, 1, '?', 0]
+SUCCESS 27
+[1, '?', '?', 1, 0, 0]
+SUCCESS 17
+[1, '?', 1, '?', 0, 0]
+SUCCESS 3
+[1, '?', 1, 1, '?', 0]
+SUCCESS 4
 [1, 1, '?', '?', 0, 0]
-SUCCESS 2
+SUCCESS 3
 [1, 1, '?', 1, '?', 0]
 SUCCESS 2
 [1, 1, 1, '?', '?', 0]
 SUCCESS 5
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 2
+SUCCESS 9
 ['?', 0, '?', 1, 0, 1]
 SUCCESS 2
 ['?', 0, 0, '?', 0, 1]
 SUCCESS 2
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 5
+SUCCESS 23
 [1, '?', '?', 1, 0, 1]
-SUCCESS 3
+SUCCESS 13
 [1, '?', 0, '?', 0, 1]
-SUCCESS 19
+SUCCESS 20
 [1, '?', 0, 1, '?', 1]
 SUCCESS 2
 [1, 0, '?', '?', 0, 1]
-SUCCESS 5
+SUCCESS 11
 [1, 0, '?', 1, '?', 1]
-SUCCESS 7
+SUCCESS 3
 [1, 0, 0, '?', '?', 1]
 SUCCESS 10
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 17
+SUCCESS 7
 ['?', 0, '?', 1, 1, 0]
-SUCCESS 1
+SUCCESS 2
 ['?', 0, 1, '?', 1, 0]
 SUCCESS 2
 ['?', 0, 1, 1, '?', 0]
-SUCCESS 5
-[0, '?', '?', 1, 1, 0]
-SUCCESS 8
-[0, '?', 1, '?', 1, 0]
-SUCCESS 9
-[0, '?', 1, 1, '?', 0]
 SUCCESS 2
+[0, '?', '?', 1, 1, 0]
+SUCCESS 6
+[0, '?', 1, '?', 1, 0]
+SUCCESS 14
+[0, '?', 1, 1, '?', 0]
+SUCCESS 3
 [0, 0, '?', '?', 1, 0]
 SUCCESS 6
 [0, 0, '?', 1, '?', 0]
-SUCCESS 2
+SUCCESS 4
 [0, 0, 1, '?', '?', 0]
-SUCCESS 17
+SUCCESS 5
 ******* p = 0.3*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 17
-['?', 0, '?', 0, 0, 0]
-SUCCESS 2
-['?', 0, 0, '?', 0, 0]
 SUCCESS 3
+['?', 0, '?', 0, 0, 0]
+SUCCESS 3
+['?', 0, 0, '?', 0, 0]
+SUCCESS 15
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 20
+SUCCESS 5
 [0, '?', '?', 0, 0, 0]
-SUCCESS 27
+SUCCESS 18
 [0, '?', 0, '?', 0, 0]
 SUCCESS 4
 [0, '?', 0, 0, '?', 0]
-SUCCESS 3
+SUCCESS 18
 [0, 0, '?', '?', 0, 0]
-SUCCESS 13
+SUCCESS 8
 [0, 0, '?', 0, '?', 0]
 SUCCESS 3
 [0, 0, 0, '?', '?', 0]
-SUCCESS 6
+SUCCESS 10
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 15
+SUCCESS 19
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 4
+SUCCESS 6
 ['?', 1, 1, '?', 0, 1]
 SUCCESS 5
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 2
+SUCCESS 14
 [0, '?', '?', 0, 0, 1]
-SUCCESS 11
+SUCCESS 23
 [0, '?', 1, '?', 0, 1]
 SUCCESS 5
 [0, '?', 1, 0, '?', 1]
-SUCCESS 3
+SUCCESS 4
 [0, 1, '?', '?', 0, 1]
-SUCCESS 2
+SUCCESS 7
 [0, 1, '?', 0, '?', 1]
-SUCCESS 6
+SUCCESS 4
 [0, 1, 1, '?', '?', 1]
 SUCCESS 6
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 6
-['?', 1, '?', 0, 1, 0]
-SUCCESS 4
-['?', 1, 0, '?', 1, 0]
-SUCCESS 16
-['?', 1, 0, 0, '?', 0]
-SUCCESS 8
-[1, '?', '?', 0, 1, 0]
-SUCCESS 3
-[1, '?', 0, '?', 1, 0]
-SUCCESS 4
-[1, '?', 0, 0, '?', 0]
 SUCCESS 5
+['?', 1, '?', 0, 1, 0]
+SUCCESS 6
+['?', 1, 0, '?', 1, 0]
+SUCCESS 13
+['?', 1, 0, 0, '?', 0]
+SUCCESS 3
+[1, '?', '?', 0, 1, 0]
+SUCCESS 16
+[1, '?', 0, '?', 1, 0]
+SUCCESS 6
+[1, '?', 0, 0, '?', 0]
+SUCCESS 1
 [1, 1, '?', '?', 1, 0]
-SUCCESS 14
+SUCCESS 2
 [1, 1, '?', 0, '?', 0]
-SUCCESS 4
+SUCCESS 2
 [1, 1, 0, '?', '?', 0]
-SUCCESS 10
+SUCCESS 8
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 4
-['?', 0, '?', 0, 1, 1]
-SUCCESS 5
-['?', 0, 1, '?', 1, 1]
-SUCCESS 5
-['?', 0, 1, 0, '?', 1]
-SUCCESS 16
-[1, '?', '?', 0, 1, 1]
-SUCCESS 3
-[1, '?', 1, '?', 1, 1]
-SUCCESS 5
-[1, '?', 1, 0, '?', 1]
 SUCCESS 11
-[1, 0, '?', '?', 1, 1]
-SUCCESS 16
-[1, 0, '?', 0, '?', 1]
+['?', 0, '?', 0, 1, 1]
 SUCCESS 4
-[1, 0, 1, '?', '?', 1]
+['?', 0, 1, '?', 1, 1]
+SUCCESS 3
+['?', 0, 1, 0, '?', 1]
 SUCCESS 10
+[1, '?', '?', 0, 1, 1]
+SUCCESS 6
+[1, '?', 1, '?', 1, 1]
+SUCCESS 10
+[1, '?', 1, 0, '?', 1]
+SUCCESS 6
+[1, 0, '?', '?', 1, 1]
+SUCCESS 14
+[1, 0, '?', 0, '?', 1]
+SUCCESS 2
+[1, 0, 1, '?', '?', 1]
+SUCCESS 5
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 11
+SUCCESS 26
 ['?', 1, '?', 1, 0, 0]
-SUCCESS 5
+SUCCESS 2
 ['?', 1, 1, '?', 0, 0]
-SUCCESS 9
+SUCCESS 16
 ['?', 1, 1, 1, '?', 0]
-SUCCESS 20
+SUCCESS 5
 [1, '?', '?', 1, 0, 0]
-SUCCESS 8
+SUCCESS 14
 [1, '?', 1, '?', 0, 0]
 SUCCESS 7
 [1, '?', 1, 1, '?', 0]
-SUCCESS 14
+SUCCESS 4
 [1, 1, '?', '?', 0, 0]
-SUCCESS 2
+SUCCESS 3
 [1, 1, '?', 1, '?', 0]
-SUCCESS 5
+SUCCESS 3
 [1, 1, 1, '?', '?', 0]
-SUCCESS 13
+SUCCESS 3
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 6
+SUCCESS 23
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 3
+SUCCESS 2
 ['?', 0, 0, '?', 0, 1]
-SUCCESS 11
+SUCCESS 20
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 8
+SUCCESS 41
 [1, '?', '?', 1, 0, 1]
-SUCCESS 5
-[1, '?', 0, '?', 0, 1]
-SUCCESS 7
-[1, '?', 0, 1, '?', 1]
-SUCCESS 11
-[1, 0, '?', '?', 0, 1]
 SUCCESS 9
+[1, '?', 0, '?', 0, 1]
+SUCCESS 5
+[1, '?', 0, 1, '?', 1]
+SUCCESS 10
+[1, 0, '?', '?', 0, 1]
+SUCCESS 2
 [1, 0, '?', 1, '?', 1]
 SUCCESS 2
 [1, 0, 0, '?', '?', 1]
-SUCCESS 4
+SUCCESS 8
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 7
+SUCCESS 8
 ['?', 0, '?', 1, 1, 0]
-SUCCESS 1
+SUCCESS 3
 ['?', 0, 1, '?', 1, 0]
 SUCCESS 6
 ['?', 0, 1, 1, '?', 0]
-SUCCESS 4
-[0, '?', '?', 1, 1, 0]
-SUCCESS 22
-[0, '?', 1, '?', 1, 0]
-SUCCESS 3
-[0, '?', 1, 1, '?', 0]
-SUCCESS 9
-[0, 0, '?', '?', 1, 0]
-SUCCESS 12
-[0, 0, '?', 1, '?', 0]
-SUCCESS 10
-[0, 0, 1, '?', '?', 0]
 SUCCESS 2
+[0, '?', '?', 1, 1, 0]
+SUCCESS 7
+[0, '?', 1, '?', 1, 0]
+SUCCESS 4
+[0, '?', 1, 1, '?', 0]
+SUCCESS 3
+[0, 0, '?', '?', 1, 0]
+SUCCESS 10
+[0, 0, '?', 1, '?', 0]
+SUCCESS 1
+[0, 0, 1, '?', '?', 0]
+SUCCESS 14
 ******* p = 0.35*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 39
+SUCCESS 38
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 15
+SUCCESS 9
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 24
+SUCCESS 34
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 32
+SUCCESS 3
 [0, '?', '?', 0, 0, 0]
-SUCCESS 14
+SUCCESS 68
 [0, '?', 0, '?', 0, 0]
-SUCCESS 46
+SUCCESS 7
 [0, '?', 0, 0, '?', 0]
-SUCCESS 5
+SUCCESS 3
 [0, 0, '?', '?', 0, 0]
-SUCCESS 2
+SUCCESS 6
 [0, 0, '?', 0, '?', 0]
 SUCCESS 2
 [0, 0, 0, '?', '?', 0]
-SUCCESS 7
+SUCCESS 23
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 9
+SUCCESS 14
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 6
+SUCCESS 11
 ['?', 1, 1, '?', 0, 1]
-SUCCESS 10
+SUCCESS 16
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 8
+SUCCESS 5
 [0, '?', '?', 0, 0, 1]
-SUCCESS 18
+SUCCESS 16
 [0, '?', 1, '?', 0, 1]
-SUCCESS 7
+SUCCESS 5
 [0, '?', 1, 0, '?', 1]
-SUCCESS 4
+SUCCESS 6
 [0, 1, '?', '?', 0, 1]
-SUCCESS 7
-[0, 1, '?', 0, '?', 1]
 SUCCESS 3
+[0, 1, '?', 0, '?', 1]
+SUCCESS 4
 [0, 1, 1, '?', '?', 1]
-SUCCESS 9
+SUCCESS 11
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 72
+SUCCESS 12
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 2
+SUCCESS 3
 ['?', 1, 0, '?', 1, 0]
-SUCCESS 2
+SUCCESS 12
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 89
+SUCCESS 20
 [1, '?', '?', 0, 1, 0]
-SUCCESS 8
+SUCCESS 4
 [1, '?', 0, '?', 1, 0]
-SUCCESS 17
+SUCCESS 15
 [1, '?', 0, 0, '?', 0]
-SUCCESS 6
+SUCCESS 22
 [1, 1, '?', '?', 1, 0]
-SUCCESS 3
+SUCCESS 26
 [1, 1, '?', 0, '?', 0]
-SUCCESS 2
+SUCCESS 5
 [1, 1, 0, '?', '?', 0]
-SUCCESS 3
+SUCCESS 8
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 12
+SUCCESS 6
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 2
-['?', 0, 1, '?', 1, 1]
-SUCCESS 27
-['?', 0, 1, 0, '?', 1]
-SUCCESS 3
-[1, '?', '?', 0, 1, 1]
-SUCCESS 2
-[1, '?', 1, '?', 1, 1]
-SUCCESS 12
-[1, '?', 1, 0, '?', 1]
-SUCCESS 19
-[1, 0, '?', '?', 1, 1]
 SUCCESS 7
+['?', 0, 1, '?', 1, 1]
+SUCCESS 6
+['?', 0, 1, 0, '?', 1]
+SUCCESS 9
+[1, '?', '?', 0, 1, 1]
+SUCCESS 24
+[1, '?', 1, '?', 1, 1]
+SUCCESS 21
+[1, '?', 1, 0, '?', 1]
+SUCCESS 3
+[1, 0, '?', '?', 1, 1]
+SUCCESS 14
 [1, 0, '?', 0, '?', 1]
 SUCCESS 4
 [1, 0, 1, '?', '?', 1]
-SUCCESS 13
+SUCCESS 4
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 2
+SUCCESS 14
 ['?', 1, '?', 1, 0, 0]
-SUCCESS 11
-['?', 1, 1, '?', 0, 0]
-SUCCESS 7
-['?', 1, 1, 1, '?', 0]
-SUCCESS 11
-[1, '?', '?', 1, 0, 0]
-SUCCESS 66
-[1, '?', 1, '?', 0, 0]
-SUCCESS 12
-[1, '?', 1, 1, '?', 0]
-SUCCESS 4
-[1, 1, '?', '?', 0, 0]
-SUCCESS 5
-[1, 1, '?', 1, '?', 0]
-SUCCESS 5
-[1, 1, 1, '?', '?', 0]
 SUCCESS 2
+['?', 1, 1, '?', 0, 0]
+SUCCESS 8
+['?', 1, 1, 1, '?', 0]
+SUCCESS 12
+[1, '?', '?', 1, 0, 0]
+SUCCESS 3
+[1, '?', 1, '?', 0, 0]
+SUCCESS 11
+[1, '?', 1, 1, '?', 0]
+SUCCESS 18
+[1, 1, '?', '?', 0, 0]
+SUCCESS 10
+[1, 1, '?', 1, '?', 0]
+SUCCESS 6
+[1, 1, 1, '?', '?', 0]
+SUCCESS 12
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 14
+SUCCESS 18
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 2
+SUCCESS 4
 ['?', 0, 0, '?', 0, 1]
-SUCCESS 6
+SUCCESS 40
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 20
-[1, '?', '?', 1, 0, 1]
-SUCCESS 60
-[1, '?', 0, '?', 0, 1]
-SUCCESS 17
-[1, '?', 0, 1, '?', 1]
 SUCCESS 8
-[1, 0, '?', '?', 0, 1]
+[1, '?', '?', 1, 0, 1]
+SUCCESS 5
+[1, '?', 0, '?', 0, 1]
+SUCCESS 10
+[1, '?', 0, 1, '?', 1]
 SUCCESS 20
+[1, 0, '?', '?', 0, 1]
+SUCCESS 8
 [1, 0, '?', 1, '?', 1]
 SUCCESS 3
 [1, 0, 0, '?', '?', 1]
-SUCCESS 4
+SUCCESS 7
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 38
+SUCCESS 41
 ['?', 0, '?', 1, 1, 0]
-SUCCESS 2
-['?', 0, 1, '?', 1, 0]
-SUCCESS 4
-['?', 0, 1, 1, '?', 0]
-SUCCESS 20
-[0, '?', '?', 1, 1, 0]
 SUCCESS 3
-[0, '?', 1, '?', 1, 0]
-SUCCESS 16
-[0, '?', 1, 1, '?', 0]
-SUCCESS 20
-[0, 0, '?', '?', 1, 0]
+['?', 0, 1, '?', 1, 0]
 SUCCESS 2
+['?', 0, 1, 1, '?', 0]
+SUCCESS 37
+[0, '?', '?', 1, 1, 0]
+SUCCESS 44
+[0, '?', 1, '?', 1, 0]
+SUCCESS 14
+[0, '?', 1, 1, '?', 0]
+SUCCESS 4
+[0, 0, '?', '?', 1, 0]
+SUCCESS 22
 [0, 0, '?', 1, '?', 0]
 SUCCESS 6
 [0, 0, 1, '?', '?', 0]
-SUCCESS 3
+SUCCESS 12
 ******* p = 0.4*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 42
+SUCCESS 2
 ['?', 0, '?', 0, 0, 0]
 SUCCESS 5
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 41
+SUCCESS 21
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 18
+SUCCESS 81
 [0, '?', '?', 0, 0, 0]
-SUCCESS 23
+SUCCESS 6
 [0, '?', 0, '?', 0, 0]
-SUCCESS 11
+SUCCESS 15
 [0, '?', 0, 0, '?', 0]
-SUCCESS 13
+SUCCESS 8
 [0, 0, '?', '?', 0, 0]
-SUCCESS 7
+SUCCESS 11
 [0, 0, '?', 0, '?', 0]
-SUCCESS 2
+SUCCESS 5
 [0, 0, 0, '?', '?', 0]
-SUCCESS 13
+SUCCESS 10
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 46
+SUCCESS 59
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 13
+SUCCESS 4
 ['?', 1, 1, '?', 0, 1]
-SUCCESS 8
+SUCCESS 2
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 58
+SUCCESS 2
 [0, '?', '?', 0, 0, 1]
-SUCCESS 48
+SUCCESS 44
 [0, '?', 1, '?', 0, 1]
-SUCCESS 20
+SUCCESS 3
 [0, '?', 1, 0, '?', 1]
-SUCCESS 13
+SUCCESS 17
 [0, 1, '?', '?', 0, 1]
-SUCCESS 7
+SUCCESS 5
 [0, 1, '?', 0, '?', 1]
-SUCCESS 10
+SUCCESS 1
 [0, 1, 1, '?', '?', 1]
-SUCCESS 6
+SUCCESS 12
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 78
+SUCCESS 152
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 8
+SUCCESS 4
 ['?', 1, 0, '?', 1, 0]
-SUCCESS 6
+SUCCESS 9
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 26
-[1, '?', '?', 0, 1, 0]
-SUCCESS 23
-[1, '?', 0, '?', 1, 0]
-SUCCESS 26
-[1, '?', 0, 0, '?', 0]
-SUCCESS 5
-[1, 1, '?', '?', 1, 0]
 SUCCESS 3
+[1, '?', '?', 0, 1, 0]
+SUCCESS 18
+[1, '?', 0, '?', 1, 0]
+SUCCESS 5
+[1, '?', 0, 0, '?', 0]
+SUCCESS 1
+[1, 1, '?', '?', 1, 0]
+SUCCESS 24
 [1, 1, '?', 0, '?', 0]
-SUCCESS 10
+SUCCESS 2
 [1, 1, 0, '?', '?', 0]
-SUCCESS 6
+SUCCESS 10
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 44
+SUCCESS 16
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 10
-['?', 0, 1, '?', 1, 1]
-SUCCESS 9
-['?', 0, 1, 0, '?', 1]
-SUCCESS 12
-[1, '?', '?', 0, 1, 1]
-SUCCESS 20
-[1, '?', 1, '?', 1, 1]
-SUCCESS 45
-[1, '?', 1, 0, '?', 1]
 SUCCESS 6
+['?', 0, 1, '?', 1, 1]
+SUCCESS 42
+['?', 0, 1, 0, '?', 1]
+SUCCESS 57
+[1, '?', '?', 0, 1, 1]
+SUCCESS 137
+[1, '?', 1, '?', 1, 1]
+SUCCESS 11
+[1, '?', 1, 0, '?', 1]
+SUCCESS 9
 [1, 0, '?', '?', 1, 1]
-SUCCESS 4
+SUCCESS 47
 [1, 0, '?', 0, '?', 1]
-SUCCESS 5
+SUCCESS 4
 [1, 0, 1, '?', '?', 1]
-SUCCESS 14
+SUCCESS 20
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 26
+SUCCESS 64
 ['?', 1, '?', 1, 0, 0]
-SUCCESS 3
+SUCCESS 7
 ['?', 1, 1, '?', 0, 0]
-SUCCESS 14
+SUCCESS 53
 ['?', 1, 1, 1, '?', 0]
 SUCCESS 27
 [1, '?', '?', 1, 0, 0]
-SUCCESS 63
+SUCCESS 5
 [1, '?', 1, '?', 0, 0]
-SUCCESS 16
+SUCCESS 3
 [1, '?', 1, 1, '?', 0]
-SUCCESS 12
+SUCCESS 21
 [1, 1, '?', '?', 0, 0]
-SUCCESS 7
+SUCCESS 2
 [1, 1, '?', 1, '?', 0]
 SUCCESS 1
 [1, 1, 1, '?', '?', 0]
-SUCCESS 4
+SUCCESS 12
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 8
+SUCCESS 107
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 1
+SUCCESS 13
 ['?', 0, 0, '?', 0, 1]
-SUCCESS 19
+SUCCESS 5
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 9
+SUCCESS 52
 [1, '?', '?', 1, 0, 1]
-SUCCESS 6
+SUCCESS 9
 [1, '?', 0, '?', 0, 1]
-SUCCESS 27
-[1, '?', 0, 1, '?', 1]
-SUCCESS 2
-[1, 0, '?', '?', 0, 1]
-SUCCESS 19
-[1, 0, '?', 1, '?', 1]
 SUCCESS 6
+[1, '?', 0, 1, '?', 1]
+SUCCESS 5
+[1, 0, '?', '?', 0, 1]
+SUCCESS 42
+[1, 0, '?', 1, '?', 1]
+SUCCESS 5
 [1, 0, 0, '?', '?', 1]
-SUCCESS 20
+SUCCESS 74
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 2
+SUCCESS 25
 ['?', 0, '?', 1, 1, 0]
-SUCCESS 5
+SUCCESS 12
 ['?', 0, 1, '?', 1, 0]
-SUCCESS 7
+SUCCESS 20
 ['?', 0, 1, 1, '?', 0]
-SUCCESS 3
+SUCCESS 57
 [0, '?', '?', 1, 1, 0]
-SUCCESS 37
+SUCCESS 70
 [0, '?', 1, '?', 1, 0]
-SUCCESS 22
+SUCCESS 12
 [0, '?', 1, 1, '?', 0]
 SUCCESS 3
 [0, 0, '?', '?', 1, 0]
-SUCCESS 13
+SUCCESS 2
 [0, 0, '?', 1, '?', 0]
-SUCCESS 8
+SUCCESS 3
 [0, 0, 1, '?', '?', 0]
-SUCCESS 7
+SUCCESS 26
 ******* p = 0.45*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 44
+SUCCESS 10
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 5
+SUCCESS 8
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 15
+SUCCESS 53
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 19
-[0, '?', '?', 0, 0, 0]
 SUCCESS 28
+[0, '?', '?', 0, 0, 0]
+SUCCESS 10
 [0, '?', 0, '?', 0, 0]
-SUCCESS 16
+SUCCESS 20
 [0, '?', 0, 0, '?', 0]
-SUCCESS 4
+SUCCESS 3
 [0, 0, '?', '?', 0, 0]
-SUCCESS 15
+SUCCESS 10
 [0, 0, '?', 0, '?', 0]
-SUCCESS 7
+SUCCESS 3
 [0, 0, 0, '?', '?', 0]
-SUCCESS 24
+SUCCESS 114
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 106
+SUCCESS 11
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 9
+SUCCESS 10
 ['?', 1, 1, '?', 0, 1]
-SUCCESS 7
+SUCCESS 35
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 18
+SUCCESS 95
 [0, '?', '?', 0, 0, 1]
-SUCCESS 63
+SUCCESS 49
 [0, '?', 1, '?', 0, 1]
-SUCCESS 47
+SUCCESS 54
 [0, '?', 1, 0, '?', 1]
-SUCCESS 16
+SUCCESS 42
 [0, 1, '?', '?', 0, 1]
-SUCCESS 23
+SUCCESS 30
 [0, 1, '?', 0, '?', 1]
-SUCCESS 3
+SUCCESS 9
 [0, 1, 1, '?', '?', 1]
-SUCCESS 22
+SUCCESS 4
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 51
+SUCCESS 175
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 6
-['?', 1, 0, '?', 1, 0]
-SUCCESS 6
-['?', 1, 0, 0, '?', 0]
-SUCCESS 8
-[1, '?', '?', 0, 1, 0]
-SUCCESS 39
-[1, '?', 0, '?', 1, 0]
 SUCCESS 4
-[1, '?', 0, 0, '?', 0]
-SUCCESS 3
-[1, 1, '?', '?', 1, 0]
+['?', 1, 0, '?', 1, 0]
 SUCCESS 14
-[1, 1, '?', 0, '?', 0]
-SUCCESS 2
-[1, 1, 0, '?', '?', 0]
+['?', 1, 0, 0, '?', 0]
+SUCCESS 83
+[1, '?', '?', 0, 1, 0]
+SUCCESS 21
+[1, '?', 0, '?', 1, 0]
+SUCCESS 60
+[1, '?', 0, 0, '?', 0]
+SUCCESS 9
+[1, 1, '?', '?', 1, 0]
 SUCCESS 35
+[1, 1, '?', 0, '?', 0]
+SUCCESS 9
+[1, 1, 0, '?', '?', 0]
+SUCCESS 53
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 6
+SUCCESS 52
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 2
+SUCCESS 11
 ['?', 0, 1, '?', 1, 1]
-SUCCESS 83
+SUCCESS 9
 ['?', 0, 1, 0, '?', 1]
-SUCCESS 22
+SUCCESS 298
 [1, '?', '?', 0, 1, 1]
-SUCCESS 64
+SUCCESS 123
 [1, '?', 1, '?', 1, 1]
-SUCCESS 47
+SUCCESS 68
 [1, '?', 1, 0, '?', 1]
-SUCCESS 18
+SUCCESS 7
 [1, 0, '?', '?', 1, 1]
-SUCCESS 6
+SUCCESS 20
 [1, 0, '?', 0, '?', 1]
-SUCCESS 17
+SUCCESS 10
 [1, 0, 1, '?', '?', 1]
-SUCCESS 19
+SUCCESS 44
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 91
+SUCCESS 92
 ['?', 1, '?', 1, 0, 0]
-SUCCESS 11
+SUCCESS 25
 ['?', 1, 1, '?', 0, 0]
-SUCCESS 11
+SUCCESS 3
 ['?', 1, 1, 1, '?', 0]
-SUCCESS 2
+SUCCESS 3
 [1, '?', '?', 1, 0, 0]
-SUCCESS 32
+SUCCESS 33
 [1, '?', 1, '?', 0, 0]
-SUCCESS 32
+SUCCESS 10
 [1, '?', 1, 1, '?', 0]
-SUCCESS 4
+SUCCESS 10
 [1, 1, '?', '?', 0, 0]
-SUCCESS 2
+SUCCESS 13
 [1, 1, '?', 1, '?', 0]
-SUCCESS 1
+SUCCESS 5
 [1, 1, 1, '?', '?', 0]
-SUCCESS 2
+SUCCESS 22
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 28
+SUCCESS 26
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 6
+SUCCESS 12
 ['?', 0, 0, '?', 0, 1]
-SUCCESS 29
+SUCCESS 5
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 123
+SUCCESS 169
 [1, '?', '?', 1, 0, 1]
-SUCCESS 122
+SUCCESS 17
 [1, '?', 0, '?', 0, 1]
-SUCCESS 10
+SUCCESS 65
 [1, '?', 0, 1, '?', 1]
-SUCCESS 4
-[1, 0, '?', '?', 0, 1]
-SUCCESS 42
-[1, 0, '?', 1, '?', 1]
 SUCCESS 3
+[1, 0, '?', '?', 0, 1]
+SUCCESS 40
+[1, 0, '?', 1, '?', 1]
+SUCCESS 12
 [1, 0, 0, '?', '?', 1]
-SUCCESS 44
+SUCCESS 70
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 205
-['?', 0, '?', 1, 1, 0]
-SUCCESS 26
-['?', 0, 1, '?', 1, 0]
-SUCCESS 8
-['?', 0, 1, 1, '?', 0]
-SUCCESS 8
-[0, '?', '?', 1, 1, 0]
-SUCCESS 56
-[0, '?', 1, '?', 1, 0]
-SUCCESS 24
-[0, '?', 1, 1, '?', 0]
-SUCCESS 3
-[0, 0, '?', '?', 1, 0]
-SUCCESS 30
-[0, 0, '?', 1, '?', 0]
-SUCCESS 13
-[0, 0, 1, '?', '?', 0]
 SUCCESS 23
+['?', 0, '?', 1, 1, 0]
+SUCCESS 21
+['?', 0, 1, '?', 1, 0]
+SUCCESS 14
+['?', 0, 1, 1, '?', 0]
+SUCCESS 61
+[0, '?', '?', 1, 1, 0]
+SUCCESS 69
+[0, '?', 1, '?', 1, 0]
+SUCCESS 33
+[0, '?', 1, 1, '?', 0]
+SUCCESS 7
+[0, 0, '?', '?', 1, 0]
+SUCCESS 17
+[0, 0, '?', 1, '?', 0]
+SUCCESS 8
+[0, 0, 1, '?', '?', 0]
+SUCCESS 18
 ******* p = 0.5*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 172
+SUCCESS 87
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 10
+SUCCESS 6
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 60
+SUCCESS 30
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 186
+SUCCESS 154
 [0, '?', '?', 0, 0, 0]
-SUCCESS 117
+SUCCESS 179
 [0, '?', 0, '?', 0, 0]
-SUCCESS 60
+SUCCESS 84
 [0, '?', 0, 0, '?', 0]
-SUCCESS 25
+SUCCESS 13
 [0, 0, '?', '?', 0, 0]
-SUCCESS 64
+SUCCESS 11
 [0, 0, '?', 0, '?', 0]
-SUCCESS 24
+SUCCESS 7
 [0, 0, 0, '?', '?', 0]
-SUCCESS 4
+SUCCESS 42
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 16
+SUCCESS 364
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 5
+SUCCESS 2
 ['?', 1, 1, '?', 0, 1]
-SUCCESS 9
+SUCCESS 71
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 5
+SUCCESS 192
 [0, '?', '?', 0, 0, 1]
-SUCCESS 259
+SUCCESS 477
 [0, '?', 1, '?', 0, 1]
-SUCCESS 72
+SUCCESS 198
 [0, '?', 1, 0, '?', 1]
-SUCCESS 12
+SUCCESS 18
 [0, 1, '?', '?', 0, 1]
-SUCCESS 106
+SUCCESS 36
 [0, 1, '?', 0, '?', 1]
-SUCCESS 19
+SUCCESS 12
 [0, 1, 1, '?', '?', 1]
-SUCCESS 57
+SUCCESS 14
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 29
+SUCCESS 23
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 1
+SUCCESS 18
 ['?', 1, 0, '?', 1, 0]
-SUCCESS 69
+SUCCESS 3
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 333
+SUCCESS 158
 [1, '?', '?', 0, 1, 0]
-SUCCESS 7
+SUCCESS 38
 [1, '?', 0, '?', 1, 0]
-SUCCESS 79
+SUCCESS 56
 [1, '?', 0, 0, '?', 0]
-SUCCESS 21
+SUCCESS 36
 [1, 1, '?', '?', 1, 0]
-SUCCESS 21
+SUCCESS 18
 [1, 1, '?', 0, '?', 0]
-SUCCESS 1
+SUCCESS 3
 [1, 1, 0, '?', '?', 0]
-SUCCESS 123
+SUCCESS 8
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 22
+SUCCESS 60
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 1
+SUCCESS 10
 ['?', 0, 1, '?', 1, 1]
-SUCCESS 44
+SUCCESS 45
 ['?', 0, 1, 0, '?', 1]
-SUCCESS 168
+SUCCESS 56
 [1, '?', '?', 0, 1, 1]
-SUCCESS 46
+SUCCESS 208
 [1, '?', 1, '?', 1, 1]
-SUCCESS 22
+SUCCESS 5
 [1, '?', 1, 0, '?', 1]
-SUCCESS 3
+SUCCESS 32
 [1, 0, '?', '?', 1, 1]
-SUCCESS 35
+SUCCESS 50
 [1, 0, '?', 0, '?', 1]
-SUCCESS 9
+SUCCESS 10
 [1, 0, 1, '?', '?', 1]
-SUCCESS 31
+SUCCESS 52
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 123
+SUCCESS 16
 ['?', 1, '?', 1, 0, 0]
-SUCCESS 11
+SUCCESS 4
 ['?', 1, 1, '?', 0, 0]
-SUCCESS 72
+SUCCESS 37
 ['?', 1, 1, 1, '?', 0]
-SUCCESS 8
+SUCCESS 14
 [1, '?', '?', 1, 0, 0]
-SUCCESS 56
+SUCCESS 163
 [1, '?', 1, '?', 0, 0]
-SUCCESS 35
-[1, '?', 1, 1, '?', 0]
 SUCCESS 27
+[1, '?', 1, 1, '?', 0]
+SUCCESS 38
 [1, 1, '?', '?', 0, 0]
-SUCCESS 61
+SUCCESS 80
 [1, 1, '?', 1, '?', 0]
-SUCCESS 2
+SUCCESS 5
 [1, 1, 1, '?', '?', 0]
-SUCCESS 50
+SUCCESS 27
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 22
+SUCCESS 5
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 16
+SUCCESS 5
 ['?', 0, 0, '?', 0, 1]
-SUCCESS 15
+SUCCESS 52
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 174
+SUCCESS 4
 [1, '?', '?', 1, 0, 1]
-SUCCESS 152
+SUCCESS 126
 [1, '?', 0, '?', 0, 1]
-SUCCESS 65
+SUCCESS 67
 [1, '?', 0, 1, '?', 1]
-SUCCESS 23
-[1, 0, '?', '?', 0, 1]
-SUCCESS 77
-[1, 0, '?', 1, '?', 1]
 SUCCESS 11
+[1, 0, '?', '?', 0, 1]
+SUCCESS 2
+[1, 0, '?', 1, '?', 1]
+SUCCESS 14
 [1, 0, 0, '?', '?', 1]
-SUCCESS 55
+SUCCESS 52
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 60
+SUCCESS 72
 ['?', 0, '?', 1, 1, 0]
-SUCCESS 18
+SUCCESS 12
 ['?', 0, 1, '?', 1, 0]
-SUCCESS 47
+SUCCESS 6
 ['?', 0, 1, 1, '?', 0]
-SUCCESS 27
+SUCCESS 7
 [0, '?', '?', 1, 1, 0]
-SUCCESS 9
+SUCCESS 83
 [0, '?', 1, '?', 1, 0]
-SUCCESS 17
+SUCCESS 154
 [0, '?', 1, 1, '?', 0]
-SUCCESS 35
+SUCCESS 5
 [0, 0, '?', '?', 1, 0]
-SUCCESS 156
+SUCCESS 42
 [0, 0, '?', 1, '?', 0]
-SUCCESS 23
+SUCCESS 8
 [0, 0, 1, '?', '?', 0]
-SUCCESS 14
+SUCCESS 9
 ******* p = 0.55*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 429
+SUCCESS 330
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 12
-['?', 0, 0, '?', 0, 0]
-SUCCESS 116
-['?', 0, 0, 0, '?', 0]
-SUCCESS 100
-[0, '?', '?', 0, 0, 0]
-SUCCESS 266
-[0, '?', 0, '?', 0, 0]
-SUCCESS 64
-[0, '?', 0, 0, '?', 0]
-SUCCESS 21
-[0, 0, '?', '?', 0, 0]
-SUCCESS 197
-[0, 0, '?', 0, '?', 0]
-SUCCESS 8
-[0, 0, 0, '?', '?', 0]
-SUCCESS 79
-**[0, 1, 1, 0, 0, 1]**
-['?', '?', 1, 0, 0, 1]
-SUCCESS 198
-['?', 1, '?', 0, 0, 1]
 SUCCESS 7
-['?', 1, 1, '?', 0, 1]
-SUCCESS 36
-['?', 1, 1, 0, '?', 1]
-SUCCESS 135
-[0, '?', '?', 0, 0, 1]
-SUCCESS 200
-[0, '?', 1, '?', 0, 1]
-SUCCESS 210
-[0, '?', 1, 0, '?', 1]
-SUCCESS 55
-[0, 1, '?', '?', 0, 1]
-SUCCESS 50
-[0, 1, '?', 0, '?', 1]
-SUCCESS 21
-[0, 1, 1, '?', '?', 1]
-SUCCESS 21
-**[1, 1, 0, 0, 1, 0]**
-['?', '?', 0, 0, 1, 0]
-SUCCESS 208
-['?', 1, '?', 0, 1, 0]
-SUCCESS 26
-['?', 1, 0, '?', 1, 0]
-SUCCESS 66
-['?', 1, 0, 0, '?', 0]
-SUCCESS 34
-[1, '?', '?', 0, 1, 0]
-SUCCESS 1129
-[1, '?', 0, '?', 1, 0]
-SUCCESS 211
-[1, '?', 0, 0, '?', 0]
-SUCCESS 37
-[1, 1, '?', '?', 1, 0]
-SUCCESS 34
-[1, 1, '?', 0, '?', 0]
-SUCCESS 24
-[1, 1, 0, '?', '?', 0]
-SUCCESS 81
-**[1, 0, 1, 0, 1, 1]**
-['?', '?', 1, 0, 1, 1]
-SUCCESS 16
-['?', 0, '?', 0, 1, 1]
-SUCCESS 13
-['?', 0, 1, '?', 1, 1]
-SUCCESS 279
-['?', 0, 1, 0, '?', 1]
-SUCCESS 81
-[1, '?', '?', 0, 1, 1]
-SUCCESS 138
-[1, '?', 1, '?', 1, 1]
-SUCCESS 413
-[1, '?', 1, 0, '?', 1]
-SUCCESS 13
-[1, 0, '?', '?', 1, 1]
-SUCCESS 186
-[1, 0, '?', 0, '?', 1]
+['?', 0, 0, '?', 0, 0]
+SUCCESS 72
+['?', 0, 0, 0, '?', 0]
+SUCCESS 894
+[0, '?', '?', 0, 0, 0]
+SUCCESS 479
+[0, '?', 0, '?', 0, 0]
+SUCCESS 295
+[0, '?', 0, 0, '?', 0]
+SUCCESS 56
+[0, 0, '?', '?', 0, 0]
+SUCCESS 9
+[0, 0, '?', 0, '?', 0]
 SUCCESS 5
-[1, 0, 1, '?', '?', 1]
-SUCCESS 40
-**[1, 1, 1, 1, 0, 0]**
-['?', '?', 1, 1, 0, 0]
-SUCCESS 712
-['?', 1, '?', 1, 0, 0]
-SUCCESS 2
-['?', 1, 1, '?', 0, 0]
-SUCCESS 226
-['?', 1, 1, 1, '?', 0]
-SUCCESS 42
-[1, '?', '?', 1, 0, 0]
-SUCCESS 50
-[1, '?', 1, '?', 0, 0]
-SUCCESS 144
-[1, '?', 1, 1, '?', 0]
-SUCCESS 12
-[1, 1, '?', '?', 0, 0]
-SUCCESS 164
-[1, 1, '?', 1, '?', 0]
-SUCCESS 4
-[1, 1, 1, '?', '?', 0]
-SUCCESS 37
-**[1, 0, 0, 1, 0, 1]**
-['?', '?', 0, 1, 0, 1]
-SUCCESS 124
-['?', 0, '?', 1, 0, 1]
-SUCCESS 2
-['?', 0, 0, '?', 0, 1]
-SUCCESS 289
-['?', 0, 0, 1, '?', 1]
-SUCCESS 1207
-[1, '?', '?', 1, 0, 1]
-SUCCESS 46
-[1, '?', 0, '?', 0, 1]
-SUCCESS 9
-[1, '?', 0, 1, '?', 1]
-SUCCESS 10
-[1, 0, '?', '?', 0, 1]
-SUCCESS 13
-[1, 0, '?', 1, '?', 1]
-SUCCESS 10
-[1, 0, 0, '?', '?', 1]
-SUCCESS 96
-**[0, 0, 1, 1, 1, 0]**
-['?', '?', 1, 1, 1, 0]
-SUCCESS 464
-['?', 0, '?', 1, 1, 0]
-SUCCESS 18
-['?', 0, 1, '?', 1, 0]
-SUCCESS 113
-['?', 0, 1, 1, '?', 0]
-SUCCESS 184
-[0, '?', '?', 1, 1, 0]
-SUCCESS 235
-[0, '?', 1, '?', 1, 0]
-SUCCESS 192
-[0, '?', 1, 1, '?', 0]
-SUCCESS 66
-[0, 0, '?', '?', 1, 0]
-SUCCESS 23
-[0, 0, '?', 1, '?', 0]
-SUCCESS 10
-[0, 0, 1, '?', '?', 0]
-SUCCESS 368
-******* p = 0.6*******
-**[0, 0, 0, 0, 0, 0]**
-['?', '?', 0, 0, 0, 0]
-SUCCESS 100
-['?', 0, '?', 0, 0, 0]
-SUCCESS 23
-['?', 0, 0, '?', 0, 0]
-SUCCESS 10
-['?', 0, 0, 0, '?', 0]
-SUCCESS 37
-[0, '?', '?', 0, 0, 0]
-SUCCESS 1451
-[0, '?', 0, '?', 0, 0]
-SUCCESS 79
-[0, '?', 0, 0, '?', 0]
-SUCCESS 14
-[0, 0, '?', '?', 0, 0]
-SUCCESS 16
-[0, 0, '?', 0, '?', 0]
-SUCCESS 20
 [0, 0, 0, '?', '?', 0]
-SUCCESS 16
+SUCCESS 350
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 657
+SUCCESS 239
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 8
+SUCCESS 1
 ['?', 1, 1, '?', 0, 1]
-SUCCESS 150
+SUCCESS 67
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 235
+SUCCESS 276
 [0, '?', '?', 0, 0, 1]
-SUCCESS 263
+SUCCESS 554
 [0, '?', 1, '?', 0, 1]
-SUCCESS 31
-[0, '?', 1, 0, '?', 1]
-SUCCESS 49
-[0, 1, '?', '?', 0, 1]
-SUCCESS 151
-[0, 1, '?', 0, '?', 1]
-SUCCESS 14
-[0, 1, 1, '?', '?', 1]
-SUCCESS 9
-**[1, 1, 0, 0, 1, 0]**
-['?', '?', 0, 0, 1, 0]
-SUCCESS 374
-['?', 1, '?', 0, 1, 0]
-SUCCESS 24
-['?', 1, 0, '?', 1, 0]
-SUCCESS 175
-['?', 1, 0, 0, '?', 0]
-SUCCESS 247
-[1, '?', '?', 0, 1, 0]
-SUCCESS 352
-[1, '?', 0, '?', 1, 0]
-SUCCESS 172
-[1, '?', 0, 0, '?', 0]
-SUCCESS 40
-[1, 1, '?', '?', 1, 0]
-SUCCESS 60
-[1, 1, '?', 0, '?', 0]
-SUCCESS 19
-[1, 1, 0, '?', '?', 0]
-SUCCESS 41
-**[1, 0, 1, 0, 1, 1]**
-['?', '?', 1, 0, 1, 1]
-SUCCESS 644
-['?', 0, '?', 0, 1, 1]
-SUCCESS 34
-['?', 0, 1, '?', 1, 1]
-SUCCESS 203
-['?', 0, 1, 0, '?', 1]
-SUCCESS 436
-[1, '?', '?', 0, 1, 1]
-SUCCESS 463
-[1, '?', 1, '?', 1, 1]
-SUCCESS 4
-[1, '?', 1, 0, '?', 1]
-SUCCESS 49
-[1, 0, '?', '?', 1, 1]
-SUCCESS 109
-[1, 0, '?', 0, '?', 1]
-SUCCESS 74
-[1, 0, 1, '?', '?', 1]
-SUCCESS 98
-**[1, 1, 1, 1, 0, 0]**
-['?', '?', 1, 1, 0, 0]
-SUCCESS 686
-['?', 1, '?', 1, 0, 0]
-SUCCESS 7
-['?', 1, 1, '?', 0, 0]
-SUCCESS 271
-['?', 1, 1, 1, '?', 0]
-SUCCESS 659
-[1, '?', '?', 1, 0, 0]
-SUCCESS 250
-[1, '?', 1, '?', 0, 0]
-SUCCESS 34
-[1, '?', 1, 1, '?', 0]
-SUCCESS 68
-[1, 1, '?', '?', 0, 0]
 SUCCESS 61
-[1, 1, '?', 1, '?', 0]
-SUCCESS 37
-[1, 1, 1, '?', '?', 0]
-SUCCESS 125
-**[1, 0, 0, 1, 0, 1]**
-['?', '?', 0, 1, 0, 1]
-SUCCESS 1943
-['?', 0, '?', 1, 0, 1]
-SUCCESS 2
-['?', 0, 0, '?', 0, 1]
-SUCCESS 615
-['?', 0, 0, 1, '?', 1]
-SUCCESS 575
-[1, '?', '?', 1, 0, 1]
-SUCCESS 458
-[1, '?', 0, '?', 0, 1]
-SUCCESS 509
-[1, '?', 0, 1, '?', 1]
-SUCCESS 34
-[1, 0, '?', '?', 0, 1]
-SUCCESS 44
-[1, 0, '?', 1, '?', 1]
-SUCCESS 36
-[1, 0, 0, '?', '?', 1]
-SUCCESS 145
-**[0, 0, 1, 1, 1, 0]**
-['?', '?', 1, 1, 1, 0]
-SUCCESS 85
-['?', 0, '?', 1, 1, 0]
-SUCCESS 9
-['?', 0, 1, '?', 1, 0]
-SUCCESS 187
-['?', 0, 1, 1, '?', 0]
-SUCCESS 1268
-[0, '?', '?', 1, 1, 0]
-SUCCESS 677
-[0, '?', 1, '?', 1, 0]
-SUCCESS 244
-[0, '?', 1, 1, '?', 0]
-SUCCESS 49
-[0, 0, '?', '?', 1, 0]
-SUCCESS 95
-[0, 0, '?', 1, '?', 0]
-SUCCESS 15
-[0, 0, 1, '?', '?', 0]
-SUCCESS 100
-******* p = 0.65*******
-**[0, 0, 0, 0, 0, 0]**
-['?', '?', 0, 0, 0, 0]
-SUCCESS 282
-['?', 0, '?', 0, 0, 0]
-SUCCESS 39
-['?', 0, 0, '?', 0, 0]
-SUCCESS 74
-['?', 0, 0, 0, '?', 0]
-SUCCESS 203
-[0, '?', '?', 0, 0, 0]
-SUCCESS 3716
-[0, '?', 0, '?', 0, 0]
-SUCCESS 507
-[0, '?', 0, 0, '?', 0]
-SUCCESS 35
-[0, 0, '?', '?', 0, 0]
-SUCCESS 231
-[0, 0, '?', 0, '?', 0]
-SUCCESS 35
-[0, 0, 0, '?', '?', 0]
-SUCCESS 369
-**[0, 1, 1, 0, 0, 1]**
-['?', '?', 1, 0, 0, 1]
-SUCCESS 1862
-['?', 1, '?', 0, 0, 1]
-SUCCESS 10
-['?', 1, 1, '?', 0, 1]
-SUCCESS 288
-['?', 1, 1, 0, '?', 1]
-SUCCESS 1267
-[0, '?', '?', 0, 0, 1]
-SUCCESS 538
-[0, '?', 1, '?', 0, 1]
-SUCCESS 659
 [0, '?', 1, 0, '?', 1]
-SUCCESS 25
+SUCCESS 20
 [0, 1, '?', '?', 0, 1]
-SUCCESS 486
+SUCCESS 40
 [0, 1, '?', 0, '?', 1]
-SUCCESS 27
+SUCCESS 17
 [0, 1, 1, '?', '?', 1]
-SUCCESS 382
+SUCCESS 58
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 550
+SUCCESS 1397
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 75
+SUCCESS 10
 ['?', 1, 0, '?', 1, 0]
-SUCCESS 236
+SUCCESS 258
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 3856
+SUCCESS 50
 [1, '?', '?', 0, 1, 0]
-SUCCESS 2063
+SUCCESS 317
 [1, '?', 0, '?', 1, 0]
-SUCCESS 970
+SUCCESS 127
 [1, '?', 0, 0, '?', 0]
-SUCCESS 148
+SUCCESS 24
 [1, 1, '?', '?', 1, 0]
-SUCCESS 12
+SUCCESS 181
 [1, 1, '?', 0, '?', 0]
-SUCCESS 9
+SUCCESS 14
 [1, 1, 0, '?', '?', 0]
 SUCCESS 29
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 263
+SUCCESS 12
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 17
+SUCCESS 32
 ['?', 0, 1, '?', 1, 1]
-SUCCESS 414
+SUCCESS 31
 ['?', 0, 1, 0, '?', 1]
-SUCCESS 485
+SUCCESS 297
 [1, '?', '?', 0, 1, 1]
-SUCCESS 563
+SUCCESS 3
 [1, '?', 1, '?', 1, 1]
-SUCCESS 448
+SUCCESS 35
 [1, '?', 1, 0, '?', 1]
-SUCCESS 99
+SUCCESS 20
 [1, 0, '?', '?', 1, 1]
-SUCCESS 906
+SUCCESS 222
 [1, 0, '?', 0, '?', 1]
-SUCCESS 19
+SUCCESS 38
 [1, 0, 1, '?', '?', 1]
-SUCCESS 143
+SUCCESS 112
 **[1, 1, 1, 1, 0, 0]**
 ['?', '?', 1, 1, 0, 0]
-SUCCESS 972
+SUCCESS 303
 ['?', 1, '?', 1, 0, 0]
-SUCCESS 36
+SUCCESS 46
 ['?', 1, 1, '?', 0, 0]
-SUCCESS 230
+SUCCESS 34
 ['?', 1, 1, 1, '?', 0]
-SUCCESS 2001
+SUCCESS 363
 [1, '?', '?', 1, 0, 0]
-SUCCESS 3700
+SUCCESS 68
 [1, '?', 1, '?', 0, 0]
-SUCCESS 60
+SUCCESS 115
 [1, '?', 1, 1, '?', 0]
-SUCCESS 15
+SUCCESS 14
 [1, 1, '?', '?', 0, 0]
-SUCCESS 66
+SUCCESS 71
 [1, 1, '?', 1, '?', 0]
-SUCCESS 17
+SUCCESS 7
 [1, 1, 1, '?', '?', 0]
-SUCCESS 398
+SUCCESS 10
 **[1, 0, 0, 1, 0, 1]**
 ['?', '?', 0, 1, 0, 1]
-SUCCESS 575
+SUCCESS 160
 ['?', 0, '?', 1, 0, 1]
-SUCCESS 84
+SUCCESS 11
 ['?', 0, 0, '?', 0, 1]
-SUCCESS 487
+SUCCESS 25
 ['?', 0, 0, 1, '?', 1]
-SUCCESS 935
+SUCCESS 525
 [1, '?', '?', 1, 0, 1]
-SUCCESS 4340
+SUCCESS 71
 [1, '?', 0, '?', 0, 1]
-SUCCESS 457
+SUCCESS 127
+[1, '?', 0, 1, '?', 1]
+SUCCESS 35
+[1, 0, '?', '?', 0, 1]
+SUCCESS 26
+[1, 0, '?', 1, '?', 1]
+SUCCESS 17
+[1, 0, 0, '?', '?', 1]
+SUCCESS 49
+**[0, 0, 1, 1, 1, 0]**
+['?', '?', 1, 1, 1, 0]
+SUCCESS 355
+['?', 0, '?', 1, 1, 0]
+SUCCESS 19
+['?', 0, 1, '?', 1, 0]
+SUCCESS 108
+['?', 0, 1, 1, '?', 0]
+SUCCESS 148
+[0, '?', '?', 1, 1, 0]
+SUCCESS 503
+[0, '?', 1, '?', 1, 0]
+SUCCESS 331
+[0, '?', 1, 1, '?', 0]
+SUCCESS 11
+[0, 0, '?', '?', 1, 0]
+SUCCESS 106
+[0, 0, '?', 1, '?', 0]
+SUCCESS 4
+[0, 0, 1, '?', '?', 0]
+SUCCESS 114
+******* p = 0.6*******
+**[0, 0, 0, 0, 0, 0]**
+['?', '?', 0, 0, 0, 0]
+SUCCESS 664
+['?', 0, '?', 0, 0, 0]
+SUCCESS 38
+['?', 0, 0, '?', 0, 0]
+SUCCESS 3
+['?', 0, 0, 0, '?', 0]
+SUCCESS 254
+[0, '?', '?', 0, 0, 0]
+SUCCESS 856
+[0, '?', 0, '?', 0, 0]
+SUCCESS 123
+[0, '?', 0, 0, '?', 0]
+SUCCESS 67
+[0, 0, '?', '?', 0, 0]
+SUCCESS 409
+[0, 0, '?', 0, '?', 0]
+SUCCESS 5
+[0, 0, 0, '?', '?', 0]
+SUCCESS 468
+**[0, 1, 1, 0, 0, 1]**
+['?', '?', 1, 0, 0, 1]
+SUCCESS 21
+['?', 1, '?', 0, 0, 1]
+SUCCESS 25
+['?', 1, 1, '?', 0, 1]
+SUCCESS 76
+['?', 1, 1, 0, '?', 1]
+SUCCESS 340
+[0, '?', '?', 0, 0, 1]
+SUCCESS 217
+[0, '?', 1, '?', 0, 1]
+SUCCESS 26
+[0, '?', 1, 0, '?', 1]
+SUCCESS 47
+[0, 1, '?', '?', 0, 1]
+SUCCESS 103
+[0, 1, '?', 0, '?', 1]
+SUCCESS 26
+[0, 1, 1, '?', '?', 1]
+SUCCESS 39
+**[1, 1, 0, 0, 1, 0]**
+['?', '?', 0, 0, 1, 0]
+SUCCESS 210
+['?', 1, '?', 0, 1, 0]
+SUCCESS 10
+['?', 1, 0, '?', 1, 0]
+SUCCESS 107
+['?', 1, 0, 0, '?', 0]
+SUCCESS 204
+[1, '?', '?', 0, 1, 0]
+SUCCESS 274
+[1, '?', 0, '?', 1, 0]
+SUCCESS 111
+[1, '?', 0, 0, '?', 0]
+SUCCESS 17
+[1, 1, '?', '?', 1, 0]
+SUCCESS 301
+[1, 1, '?', 0, '?', 0]
+SUCCESS 52
+[1, 1, 0, '?', '?', 0]
+SUCCESS 4
+**[1, 0, 1, 0, 1, 1]**
+['?', '?', 1, 0, 1, 1]
+SUCCESS 1226
+['?', 0, '?', 0, 1, 1]
+SUCCESS 7
+['?', 0, 1, '?', 1, 1]
+SUCCESS 95
+['?', 0, 1, 0, '?', 1]
+SUCCESS 235
+[1, '?', '?', 0, 1, 1]
+SUCCESS 4
+[1, '?', 1, '?', 1, 1]
+SUCCESS 1024
+[1, '?', 1, 0, '?', 1]
+SUCCESS 24
+[1, 0, '?', '?', 1, 1]
+SUCCESS 29
+[1, 0, '?', 0, '?', 1]
+SUCCESS 18
+[1, 0, 1, '?', '?', 1]
+SUCCESS 209
+**[1, 1, 1, 1, 0, 0]**
+['?', '?', 1, 1, 0, 0]
+SUCCESS 126
+['?', 1, '?', 1, 0, 0]
+SUCCESS 51
+['?', 1, 1, '?', 0, 0]
+SUCCESS 105
+['?', 1, 1, 1, '?', 0]
+SUCCESS 375
+[1, '?', '?', 1, 0, 0]
+SUCCESS 330
+[1, '?', 1, '?', 0, 0]
+SUCCESS 378
+[1, '?', 1, 1, '?', 0]
+SUCCESS 25
+[1, 1, '?', '?', 0, 0]
+SUCCESS 61
+[1, 1, '?', 1, '?', 0]
+SUCCESS 4
+[1, 1, 1, '?', '?', 0]
+SUCCESS 268
+**[1, 0, 0, 1, 0, 1]**
+['?', '?', 0, 1, 0, 1]
+SUCCESS 779
+['?', 0, '?', 1, 0, 1]
+SUCCESS 35
+['?', 0, 0, '?', 0, 1]
+SUCCESS 133
+['?', 0, 0, 1, '?', 1]
+SUCCESS 243
+[1, '?', '?', 1, 0, 1]
+SUCCESS 775
+[1, '?', 0, '?', 0, 1]
+SUCCESS 636
 [1, '?', 0, 1, '?', 1]
 SUCCESS 13
 [1, 0, '?', '?', 0, 1]
-SUCCESS 420
+SUCCESS 351
 [1, 0, '?', 1, '?', 1]
-SUCCESS 21
+SUCCESS 15
 [1, 0, 0, '?', '?', 1]
-SUCCESS 458
+SUCCESS 251
 **[0, 0, 1, 1, 1, 0]**
 ['?', '?', 1, 1, 1, 0]
-SUCCESS 2201
+SUCCESS 209
 ['?', 0, '?', 1, 1, 0]
-SUCCESS 40
+SUCCESS 13
 ['?', 0, 1, '?', 1, 0]
-SUCCESS 1322
+SUCCESS 153
 ['?', 0, 1, 1, '?', 0]
-SUCCESS 4783
+SUCCESS 67
 [0, '?', '?', 1, 1, 0]
-SUCCESS 94
+SUCCESS 36
 [0, '?', 1, '?', 1, 0]
-SUCCESS 15
+SUCCESS 234
 [0, '?', 1, 1, '?', 0]
-SUCCESS 82
+SUCCESS 7
 [0, 0, '?', '?', 1, 0]
-SUCCESS 536
+SUCCESS 16
 [0, 0, '?', 1, '?', 0]
-SUCCESS 11
+SUCCESS 37
 [0, 0, 1, '?', '?', 0]
-SUCCESS 1005
+SUCCESS 47
+******* p = 0.65*******
+**[0, 0, 0, 0, 0, 0]**
+['?', '?', 0, 0, 0, 0]
+SUCCESS 275
+['?', 0, '?', 0, 0, 0]
+SUCCESS 35
+['?', 0, 0, '?', 0, 0]
+SUCCESS 131
+['?', 0, 0, 0, '?', 0]
+SUCCESS 1162
+[0, '?', '?', 0, 0, 0]
+SUCCESS 464
+[0, '?', 0, '?', 0, 0]
+SUCCESS 63
+[0, '?', 0, 0, '?', 0]
+SUCCESS 41
+[0, 0, '?', '?', 0, 0]
+SUCCESS 348
+[0, 0, '?', 0, '?', 0]
+SUCCESS 24
+[0, 0, 0, '?', '?', 0]
+SUCCESS 567
+**[0, 1, 1, 0, 0, 1]**
+['?', '?', 1, 0, 0, 1]
+SUCCESS 1170
+['?', 1, '?', 0, 0, 1]
+SUCCESS 44
+['?', 1, 1, '?', 0, 1]
+SUCCESS 7
+['?', 1, 1, 0, '?', 1]
+SUCCESS 2130
+[0, '?', '?', 0, 0, 1]
+SUCCESS 727
+[0, '?', 1, '?', 0, 1]
+SUCCESS 953
+[0, '?', 1, 0, '?', 1]
+SUCCESS 116
+[0, 1, '?', '?', 0, 1]
+SUCCESS 350
+[0, 1, '?', 0, '?', 1]
+SUCCESS 98
+[0, 1, 1, '?', '?', 1]
+SUCCESS 801
+**[1, 1, 0, 0, 1, 0]**
+['?', '?', 0, 0, 1, 0]
+SUCCESS 2974
+['?', 1, '?', 0, 1, 0]
+SUCCESS 30
+['?', 1, 0, '?', 1, 0]
+SUCCESS 98
+['?', 1, 0, 0, '?', 0]
+SUCCESS 2964
+[1, '?', '?', 0, 1, 0]
+SUCCESS 1175
+[1, '?', 0, '?', 1, 0]
+SUCCESS 228
+[1, '?', 0, 0, '?', 0]
+SUCCESS 34
+[1, 1, '?', '?', 1, 0]
+SUCCESS 159
+[1, 1, '?', 0, '?', 0]
+SUCCESS 20
+[1, 1, 0, '?', '?', 0]
+SUCCESS 20
+**[1, 0, 1, 0, 1, 1]**
+['?', '?', 1, 0, 1, 1]
+SUCCESS 1001
+['?', 0, '?', 0, 1, 1]
+SUCCESS 37
+['?', 0, 1, '?', 1, 1]
+SUCCESS 66
+['?', 0, 1, 0, '?', 1]
+SUCCESS 604
+[1, '?', '?', 0, 1, 1]
+SUCCESS 1569
+[1, '?', 1, '?', 1, 1]
+SUCCESS 3
+[1, '?', 1, 0, '?', 1]
+SUCCESS 55
+[1, 0, '?', '?', 1, 1]
+SUCCESS 561
+[1, 0, '?', 0, '?', 1]
+SUCCESS 22
+[1, 0, 1, '?', '?', 1]
+SUCCESS 19
+**[1, 1, 1, 1, 0, 0]**
+['?', '?', 1, 1, 0, 0]
+SUCCESS 980
+['?', 1, '?', 1, 0, 0]
+SUCCESS 16
+['?', 1, 1, '?', 0, 0]
+SUCCESS 129
+['?', 1, 1, 1, '?', 0]
+SUCCESS 2
+[1, '?', '?', 1, 0, 0]
+SUCCESS 1825
+[1, '?', 1, '?', 0, 0]
+SUCCESS 1758
+[1, '?', 1, 1, '?', 0]
+SUCCESS 40
+[1, 1, '?', '?', 0, 0]
+SUCCESS 125
+[1, 1, '?', 1, '?', 0]
+SUCCESS 24
+[1, 1, 1, '?', '?', 0]
+SUCCESS 658
+**[1, 0, 0, 1, 0, 1]**
+['?', '?', 0, 1, 0, 1]
+SUCCESS 202
+['?', 0, '?', 1, 0, 1]
+SUCCESS 74
+['?', 0, 0, '?', 0, 1]
+SUCCESS 1045
+['?', 0, 0, 1, '?', 1]
+SUCCESS 2164
+[1, '?', '?', 1, 0, 1]
+SUCCESS 10346
+[1, '?', 0, '?', 0, 1]
+SUCCESS 736
+[1, '?', 0, 1, '?', 1]
+SUCCESS 70
+[1, 0, '?', '?', 0, 1]
+SUCCESS 746
+[1, 0, '?', 1, '?', 1]
+SUCCESS 49
+[1, 0, 0, '?', '?', 1]
+SUCCESS 51
+**[0, 0, 1, 1, 1, 0]**
+['?', '?', 1, 1, 1, 0]
+SUCCESS 500
+['?', 0, '?', 1, 1, 0]
+SUCCESS 59
+['?', 0, 1, '?', 1, 0]
+SUCCESS 368
+['?', 0, 1, 1, '?', 0]
+SUCCESS 556
+[0, '?', '?', 1, 1, 0]
+SUCCESS 370
+[0, '?', 1, '?', 1, 0]
+SUCCESS 947
+[0, '?', 1, 1, '?', 0]
+SUCCESS 121
+[0, 0, '?', '?', 1, 0]
+SUCCESS 15
+[0, 0, '?', 1, '?', 0]
+SUCCESS 55
+[0, 0, 1, '?', '?', 0]
+SUCCESS 135
 ******* p = 0.7*******
 **[0, 0, 0, 0, 0, 0]**
 ['?', '?', 0, 0, 0, 0]
-SUCCESS 2589
+SUCCESS 5285
 ['?', 0, '?', 0, 0, 0]
-SUCCESS 42
+SUCCESS 25
 ['?', 0, 0, '?', 0, 0]
-SUCCESS 491
+SUCCESS 2625
 ['?', 0, 0, 0, '?', 0]
-SUCCESS 1089
+SUCCESS 7368
 [0, '?', '?', 0, 0, 0]
-SUCCESS 6384
+SUCCESS 1188
 [0, '?', 0, '?', 0, 0]
-SUCCESS 2383
+SUCCESS 1038
 [0, '?', 0, 0, '?', 0]
-SUCCESS 45
+SUCCESS 34
 [0, 0, '?', '?', 0, 0]
-SUCCESS 2007
+SUCCESS 1059
 [0, 0, '?', 0, '?', 0]
-SUCCESS 22
+SUCCESS 14
 [0, 0, 0, '?', '?', 0]
-SUCCESS 73
+SUCCESS 807
 **[0, 1, 1, 0, 0, 1]**
 ['?', '?', 1, 0, 0, 1]
-SUCCESS 7684
+SUCCESS 1237
 ['?', 1, '?', 0, 0, 1]
-SUCCESS 77
+SUCCESS 22
 ['?', 1, 1, '?', 0, 1]
-SUCCESS 1667
+SUCCESS 344
 ['?', 1, 1, 0, '?', 1]
-SUCCESS 7086
+SUCCESS 3322
 [0, '?', '?', 0, 0, 1]
-SUCCESS 1145
+SUCCESS 1843
 [0, '?', 1, '?', 0, 1]
-SUCCESS 1546
+SUCCESS 317
 [0, '?', 1, 0, '?', 1]
-SUCCESS 304
+SUCCESS 65
 [0, 1, '?', '?', 0, 1]
-SUCCESS 227
+SUCCESS 1843
 [0, 1, '?', 0, '?', 1]
-SUCCESS 12
+SUCCESS 28
 [0, 1, 1, '?', '?', 1]
-SUCCESS 671
+SUCCESS 1850
 **[1, 1, 0, 0, 1, 0]**
 ['?', '?', 0, 0, 1, 0]
-SUCCESS 3392
+SUCCESS 4413
 ['?', 1, '?', 0, 1, 0]
-SUCCESS 39
+SUCCESS 27
 ['?', 1, 0, '?', 1, 0]
-SUCCESS 3578
+SUCCESS 436
 ['?', 1, 0, 0, '?', 0]
-SUCCESS 3020
+SUCCESS 2737
 [1, '?', '?', 0, 1, 0]
-SUCCESS 2411
+SUCCESS 6160
 [1, '?', 0, '?', 1, 0]
-SUCCESS 496
+SUCCESS 4136
 [1, '?', 0, 0, '?', 0]
-SUCCESS 25
+SUCCESS 42
 [1, 1, '?', '?', 1, 0]
-SUCCESS 424
+SUCCESS 179
 [1, 1, '?', 0, '?', 0]
-SUCCESS 111
+SUCCESS 73
 [1, 1, 0, '?', '?', 0]
-SUCCESS 3220
+SUCCESS 1038
 **[1, 0, 1, 0, 1, 1]**
 ['?', '?', 1, 0, 1, 1]
-SUCCESS 81
+SUCCESS 544
 ['?', 0, '?', 0, 1, 1]
-SUCCESS 27
+SUCCESS 23
 ['?', 0, 1, '?', 1, 1]
-SUCCESS 755
+SUCCESS 2188
 ['?', 0, 1, 0, '?', 1]
-SUCCESS 3941
+SUCCESS 2974
 [1, '?', '?', 0, 1, 1]
-SUCCESS 7961
+SUCCESS 2757
 [1, '?', 1, '?', 1, 1]
-SUCCESS 890
-[1, '?', 1, 0, '?', 1]
-SUCCESS 222
-[1, 0, '?', '?', 1, 1]
-SUCCESS 703
-[1, 0, '?', 0, '?', 1]
-SUCCESS 136
-[1, 0, 1, '?', '?', 1]
-SUCCESS 886
-**[1, 1, 1, 1, 0, 0]**
-['?', '?', 1, 1, 0, 0]
-SUCCESS 1351
-['?', 1, '?', 1, 0, 0]
-SUCCESS 7
-['?', 1, 1, '?', 0, 0]
-SUCCESS 582
-['?', 1, 1, 1, '?', 0]
-SUCCESS 2497
-[1, '?', '?', 1, 0, 0]
-SUCCESS 5383
-[1, '?', 1, '?', 0, 0]
-SUCCESS 1284
-[1, '?', 1, 1, '?', 0]
-SUCCESS 45
-[1, 1, '?', '?', 0, 0]
-SUCCESS 1131
-[1, 1, '?', 1, '?', 0]
-SUCCESS 52
-[1, 1, 1, '?', '?', 0]
-SUCCESS 1304
-**[1, 0, 0, 1, 0, 1]**
-['?', '?', 0, 1, 0, 1]
-SUCCESS 299
-['?', 0, '?', 1, 0, 1]
-SUCCESS 11
-['?', 0, 0, '?', 0, 1]
-SUCCESS 2087
-['?', 0, 0, 1, '?', 1]
-SUCCESS 985
-[1, '?', '?', 1, 0, 1]
-SUCCESS 2198
-[1, '?', 0, '?', 0, 1]
-SUCCESS 2125
-[1, '?', 0, 1, '?', 1]
-SUCCESS 91
-[1, 0, '?', '?', 0, 1]
-SUCCESS 1011
-[1, 0, '?', 1, '?', 1]
-SUCCESS 65
-[1, 0, 0, '?', '?', 1]
-SUCCESS 1785
-**[0, 0, 1, 1, 1, 0]**
-['?', '?', 1, 1, 1, 0]
-SUCCESS 4299
-['?', 0, '?', 1, 1, 0]
-SUCCESS 90
-['?', 0, 1, '?', 1, 0]
-SUCCESS 1692
-['?', 0, 1, 1, '?', 0]
-SUCCESS 2293
-[0, '?', '?', 1, 1, 0]
-SUCCESS 148
-[0, '?', 1, '?', 1, 0]
-SUCCESS 4542
-[0, '?', 1, 1, '?', 0]
-SUCCESS 8
-[0, 0, '?', '?', 1, 0]
-SUCCESS 1899
-[0, 0, '?', 1, '?', 0]
-SUCCESS 32
-[0, 0, 1, '?', '?', 0]
-SUCCESS 1468
-ALL SUCCESSFUL
+SUCCESS 1640
+[1
